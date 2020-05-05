@@ -35,14 +35,16 @@ function App() {
     //   <GlobalStyle />
     <div className="App">
       <GlobalStyle />
-      <NavBar />
-      <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/senpais-blog" component={Blog} />
-        <Route exact path="/videos" component={Videos} />
-      </Switch>
-
+      <NavBar sticky="top" />
+      <div className="Content">
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/senpais-blog" component={Blog} />
+          <Route exact path="/videos" component={Videos} />
+          <Route exact path="*" component={() => "404 Page Not Found."} />
+        </Switch>
+      </div>
       {/* <NavBar /> */}
       {/* <h2>Hello, just show something so im not looking at a white screen</h2>
       <h3>Thanks bro, i appreciate it</h3> */}

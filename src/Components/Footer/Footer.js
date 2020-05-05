@@ -12,6 +12,8 @@ const FooterContainer = Styled.div`
     padding: 0 9.5%;
     background: #00A8C5;
     z-index: 300;
+    position: absolute;
+    bottom: 0;
 `;
 const Footer = () => {
   return (

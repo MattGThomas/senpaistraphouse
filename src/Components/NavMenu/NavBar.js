@@ -19,6 +19,7 @@ const NavContainer = Styled.div`
     padding: 0 9.5%;
     background: #00A8C5;
     z-index: 300;
+    position: fixed;
 `;
 
 const LogoContainer = Styled.div`
