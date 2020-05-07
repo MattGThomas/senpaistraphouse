@@ -9,7 +9,7 @@ import Blog from "../src/Components/Blog/Blog.js";
 import Videos from "../src/Components/Videos/Videos.js";
 import Articles from "../src/Components/Articles/Articles.js";
 import SchoolRecs from "../src/Components/Articles/SchoolRecs.js";
-
+import ReasonsWhy from "../src/Components/Articles/ReasonsWhy.js";
 import "./App.css";
 
 const GlobalStyle = createGlobalStyle`
@@ -47,7 +47,7 @@ function App() {
           <Route exact path="/videos" component={Videos} />
           <Route exact path="/articles" component={Articles} />
           <Route exact path="/articles/back-to-school" component={SchoolRecs} />
-
+          <Route exact path="/articles/13-reasons-why" component={ReasonsWhy} />
           <Route exact path="*" component={() => "404 Page Not Found."} />
         </Switch>
       </div>

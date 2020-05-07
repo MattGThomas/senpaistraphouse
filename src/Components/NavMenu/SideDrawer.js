@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 
 import "./SideDrawer.css";
 
+// background of sidedrawer currently is: ccc
 const SideDrawerNav = Styled.nav`
     height: 92%;
-    background: #ccc;
+    background: #FFFFFF;
     box-shadow: -1px 0px 20px black;
     position: fixed;
     top: 8%;
@@ -47,19 +48,19 @@ const sideDrawer = (props) => {
     <SideDrawerNav className={drawerClasses}>
       <NavList>
         <Link to="/">
-          <ListItem>Home Page</ListItem>
+          <ListItem className="side-drawer-items">HOME PAGE</ListItem>
         </Link>
         <Link to="/about">
-          <ListItem>ABOUT</ListItem>
+          <ListItem className="side-drawer-items">ABOUT</ListItem>
         </Link>
         <Link to="/senpais-blog">
-          <ListItem>SENPAI'S BLOG</ListItem>
+          <ListItem className="side-drawer-items">SENPAI'S BLOG</ListItem>
         </Link>
         <Link to="/articles">
-          <ListItem>ARTICLES</ListItem>
+          <ListItem className="side-drawer-items">ARTICLES</ListItem>
         </Link>
         <Link to="/videos">
-          <ListItem>VIDEOS</ListItem>
+          <ListItem className="side-drawer-items">VIDEOS</ListItem>
         </Link>
       </NavList>
     </SideDrawerNav>

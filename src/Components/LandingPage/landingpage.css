@@ -5,3 +5,28 @@
   color: #fff;
   text-align: center;
 }
+.senpai {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 8rem;
+}
+.shadow {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2rem;
+}
+.landing-card-title {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2rem;
+}
+.landing-card-text {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3rem;
+  /* font-size: 20px; */
+}
+.landing-card-text-body {
+  font-size: 1.2rem;
+}
+.p-2 {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  font-size: 1.4rem;
+}

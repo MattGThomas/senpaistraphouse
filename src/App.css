@@ -2,6 +2,8 @@
   text-align: center;
   position: relative;
   min-height: 100vh;
+  background: black;
+  width: 100%;
 }
 .Content {
   padding-bottom: 2.5rem;

@@ -21,7 +21,7 @@ const NavToggleButton = Styled.button`
 const ToggleButtonLine = Styled.div`
     width: 40px;
     height: 3px;
-    background: white;
+    background: #000000;
     border-radius: 2px
 `;
 

@@ -6,3 +6,6 @@
 .side-drawer.open {
   transform: translateX(0);
 }
+.side-drawer-items {
+  font-family: "Sedgwick Ave Display", cursive;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import {
-  // MDBContainer,
+  MDBContainer,
   MDBRow,
   MDBCol,
   MDBInput,
@@ -15,6 +15,8 @@ import {
 } from "mdbreact";
 import Styled from "styled-components";
 import relife from "../../images/relife.jpg";
+// import reReLife from "../../images/resizedRelife.jpg";
+import hostClub from "../../images/host-club.jpg";
 import reasons from "../../images/reasons-why.jpg";
 import neverland from "../../images/neverland.jpg";
 
@@ -29,56 +31,59 @@ class Articles extends Component {
 
   render() {
     return (
-      <div>
+      <MDBContainer>
+        {/* // <div className="d-flex justify-content-center"> */}
         <h2> Senpai's Articles</h2>
 
         {/* <h3>Back To School Recs</h3> */}
-        <MDBCol>
-          <MDBRow>
-            <MDBJumbotron className="p-0">
-              <MDBCardTitle>Back To School Recs</MDBCardTitle>
-              <MDBCardImage
-                src={relife}
-                style={{ width: "100%", height: "400px" }}
-              />
-              <MDBCardText>
-                As we get back into the groove of school (or not if you're
-                lucky), here is a list of anime recommendations that take place
-                in an academic setting.
-                <div>
-                  <Link to="/articles/back-to-school">Read more</Link>
-                </div>
-              </MDBCardText>
-            </MDBJumbotron>
-          </MDBRow>
-          <MDBRow>
-            <MDBJumbotron className="p-0">
-              <MDBCardTitle>If You Like 13 Reasons Why</MDBCardTitle>
-              <MDBCardImage src={reasons} style={{ width: "100%" }} />
-              <MDBCardText>
-                A detailed breakdown of animes you may enjoy if you're a fan of
-                the Netflix series "13 Reasons Why".
-                <div>
-                  <Link to="/">Read more</Link>
-                </div>
-              </MDBCardText>
-            </MDBJumbotron>
-          </MDBRow>
-          <MDBRow>
-            <MDBJumbotron className="p-0">
-              <MDBCardTitle>If you like stranger things</MDBCardTitle>
-              <MDBCardImage src={neverland} style={{ width: "100%" }} />
-              <MDBCardText>
-                A detailed breakdown of animes you may enjoy if you're a fan of
-                the Netflix series "Stranger Things".
-                <div>
-                  <Link to="/">Read more</Link>
-                </div>
-              </MDBCardText>
-            </MDBJumbotron>
-          </MDBRow>
-        </MDBCol>
-      </div>
+
+        <MDBRow>
+          <MDBJumbotron className="p-0">
+            <MDBCardTitle>Back To School Recs</MDBCardTitle>
+            <MDBCardImage
+              src={relife}
+              // style={{ width: " }}
+            />
+
+            <MDBCardText>
+              As we get back into the groove of school (or not if you're lucky),
+              here is a list of anime recommendations that take place in an
+              academic setting.
+              <div>
+                <Link to="/articles/back-to-school">Read more</Link>
+              </div>
+            </MDBCardText>
+          </MDBJumbotron>
+        </MDBRow>
+        <MDBRow>
+          <MDBJumbotron className="p-0">
+            <MDBCardTitle>If You Like 13 Reasons Why</MDBCardTitle>
+            <MDBCardImage src={reasons} style={{ width: "100%" }} />
+            <MDBCardText>
+              A detailed breakdown of animes you may enjoy if you're a fan of
+              the Netflix series "13 Reasons Why".
+              <div>
+                <Link to="/articles/13-reasons-why">Read more</Link>
+              </div>
+            </MDBCardText>
+          </MDBJumbotron>
+        </MDBRow>
+        <MDBRow>
+          <MDBJumbotron className="p-0">
+            <MDBCardTitle>If you like stranger things</MDBCardTitle>
+            <MDBCardImage src={neverland} style={{ width: "100%" }} />
+            <MDBCardText>
+              A detailed breakdown of animes you may enjoy if you're a fan of
+              the Netflix series "Stranger Things".
+              <div>
+                <Link to="/">Read more</Link>
+              </div>
+            </MDBCardText>
+          </MDBJumbotron>
+        </MDBRow>
+
+        {/* // </div> */}
+      </MDBContainer>
     );
   }
 }

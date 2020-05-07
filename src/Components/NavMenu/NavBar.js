@@ -9,6 +9,7 @@ import logo from "../../images/traphouselogo.png";
 import Backdrop from "./Backdrop.js";
 import NavButton from "./NavButton.js";
 import SideDrawer from "./SideDrawer.js";
+import "./NavBar.css";
 
 const NavContainer = Styled.div`
     display: flex;
@@ -17,7 +18,7 @@ const NavContainer = Styled.div`
     height: 25%;
     width: 100%;
     padding: 0 9.5%;
-    background: #00A8C5;
+    background: #73bf32;
     z-index: 300;
     position: fixed;
 `;
@@ -45,6 +46,7 @@ const MDBContainer = Styled.div`
 class NavBar extends Component {
   state = {
     sideDrawerOpen: false,
+    textColor: "#73bf32",
   };
   backDropClick = () => {
     this.setState({
@@ -56,6 +58,17 @@ class NavBar extends Component {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 100) {
+      this.setState({ textColor: "#FFFFFF" });
+    } else {
+      this.setState({ textColor: "#73bf32" });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
 
   render() {
     let backDrop;
@@ -68,7 +81,7 @@ class NavBar extends Component {
         <div style={{ paddingBottom: "7%" }}>
           <NavContainer
             className="nav-container"
-            style={{ height: "50px", width: "100%" }}
+            style={{ height: "70px", width: "100%" }}
           >
             <LogoContainer className="logo-container">
               <Link to="/">
@@ -76,7 +89,15 @@ class NavBar extends Component {
                 {/* <STLogo width="100%" /> */}
               </Link>
             </LogoContainer>
-
+            <p
+              style={{ fontSize: "1.5rem", color: this.state.textColor }}
+              className="navText"
+            >
+              <strong>SENPAI'S TRAPHOUSE</strong>
+            </p>
+            {/* <Zoom>
+              <p>GTHis is a test to see if this s working</p>
+            </Zoom> */}
             <NavButton clickHandler={this.navClickHandler} />
           </NavContainer>
         </div>
