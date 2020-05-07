@@ -21,7 +21,7 @@ class StrangerThings extends Component {
           </Link>
         </div>
         <h2 className="strangerThings" style={{ paddingBottom: "3%" }}>
-          <strong>I YOU LIKE... 'STRANGER THINGS'</strong>
+          <strong>IF YOU LIKE... 'STRANGER THINGS'</strong>
         </h2>
         <MDBContainer>
           <MDBRow style={{ paddingBottom: "3%" }}>
