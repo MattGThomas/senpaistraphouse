@@ -2,3 +2,13 @@
   display: flex;
   align-items: column;
 } */
+.schoolRecs {
+  font-family: "Shadows Into Light", cursive;
+  color: #ffffff;
+  font-size: 2.9rem;
+}
+.reasons {
+  font-family: "Shadows Into Light", cursive;
+  color: #ffffff;
+  font-size: 2.9rem;
+}
