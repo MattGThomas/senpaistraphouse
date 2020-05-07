@@ -114,6 +114,7 @@ class SchoolRecs extends Component {
               </p>
               <img src={justBecause} style={{ width: "100%" }} />
             </MDBCol>
+
             <MDBCol style={{ paddingRight: 0, marginRight: 0 }}>
               <div className="text-left">
                 <p style={{ color: "white" }}>

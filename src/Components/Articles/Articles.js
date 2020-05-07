@@ -76,7 +76,9 @@ class Articles extends Component {
               A detailed breakdown of animes you may enjoy if you're a fan of
               the Netflix series "Stranger Things".
               <div>
-                <Link to="/">Read more</Link>
+                <Link to="/articles/anime-to-try-if-you-like-stranger-things">
+                  Read more
+                </Link>
               </div>
             </MDBCardText>
           </MDBJumbotron>
