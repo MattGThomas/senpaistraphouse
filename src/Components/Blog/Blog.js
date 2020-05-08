@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import gif from "../../images/gif.gif";
 import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
 import "./blog.css";
+
 class Blog extends Component {
   render() {
     return (
@@ -13,7 +14,7 @@ class Blog extends Component {
           <MDBCol>
             <div style={{ color: "white" }} className="text-left">
               <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
-              <img src={gif} />
+              <img src={gif} style={{ width: "100%" }} />
               {/* <div>
                 <div>
                   <p>AUTHOR</p>

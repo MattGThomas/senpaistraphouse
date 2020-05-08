@@ -5,8 +5,15 @@
   background: black;
   width: 100%;
 }
+
 .Content {
   padding-bottom: 2.5rem;
+}
+@media (max-width: 900px) {
+  .Content {
+    border: 1px solid red;
+    /* width: 640px; */
+  }
 }
 .App-logo {
   height: 40vmin;

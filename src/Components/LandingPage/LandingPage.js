@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../NavMenu/NavBar.js";
-import Footer from "../Footer/Footer.js";
+
 import logo from "../../images/traphouselogo.png";
-import people from "../../images/people.jpg";
-import reading from "../../images/reading.mp4";
+
 import midoriya from "../../images/midoriya.png";
 import article_image from "../../images/article_image.jpg";
 import rascal from "../../images/rascal.jpg";
-import Zoom from "react-reveal/Zoom";
 
 import {
   MDBContainer,
@@ -91,7 +88,7 @@ class LandingPage extends Component {
           </h2>
 
           <MDBRow className="d-flex justify-content-center">
-            <MDBCol style={{ maxWidth: "40%" }}>
+            <MDBCol>
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardImage
                   src={midoriya}
@@ -115,7 +112,7 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
 
-            <MDBCol style={{ maxWidth: "40%" }}>
+            <MDBCol>
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardBody>
                   <Link to="/articles">
@@ -151,7 +148,7 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
 
-            <MDBCol style={{ maxWidth: "40%" }}>
+            <MDBCol>
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardImage
                   src={rascal}
@@ -178,14 +175,17 @@ class LandingPage extends Component {
           </MDBRow>
         </MDBRow>
 
-        <MDBRow style={{ paddingTop: "5%" }}>
+        <MDBRow style={{ paddingTop: "5%" }} className="stupid-video">
           <div>
             <h2 className="text-center" style={{ color: "#FFFFFF" }}>
               SENPAI'S TRAPHOUSE EP. 1: PILOT
             </h2>
           </div>
           <MDBCol>
-            <ReactPlayer url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws" />
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws"
+              width="100%"
+            />
           </MDBCol>
           <MDBCol
             className="d-flex flex-column"
@@ -208,30 +208,6 @@ class LandingPage extends Component {
             <span className="p-2 text-left">
               -Main Topic: "Good and Bad anime fathers"
             </span>
-            {/* <MDBCard> */}
-            {/* <h3>Senpai's Traphouse EP. 1</h3> */}
-
-            {/* <MDBCardTitle>Senpai's Traphouse EP. 1</MDBCardTitle> */}
-            {/* <MDBCardBody> */}
-            {/* <p>
-              Join us as we discussa variety of anime topics, have some sake
-              <br />
-              and figure out who the best and worst fathers in anime are
-            </p> */}
-            {/* </MDBCardBody> */}
-            {/* </MDBCard> */}
-            {/* <div style={{ width: "75%" }}>
-              <h2>
-                A round table style discussion covering a variety of anime
-                related topics
-              </h2>
-              <p>Ep. 1: Pilot </p>
-              <ul>
-                <li>Sake and a Snack: Dorayaki, Mochi, Coffee, Pocky, Sake</li>
-                <li>Icebreaker: How did you get into anime</li>
-                <li>Main Topic: Good and Bad Anime Fathers</li>
-              </ul>
-            </div> */}
           </MDBCol>
         </MDBRow>
 

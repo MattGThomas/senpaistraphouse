@@ -1,27 +1,51 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import "./videos.css";
 class Videos extends Component {
   render() {
     return (
-      <div>
-        <h2>SENPAI'S TRAPHOUSE EP. 1: PILOT</h2>
-        <ReactPlayer url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws" />
+      <MDBContainer>
         <div>
-          <p>
-            <strong>
-              A round table style discussion covering a variety of anime related
-              topics
-            </strong>
-          </p>
-          <p>Ep. 1: Pilot </p>
-          <ul>
-            <li>Sake and a Snack: Dorayaki, Mochi, Coffee, Pocky, Sake</li>
-            <li>Icebreaker: How did you get into anime</li>
-            <li>Main Topic: Good and Bad Anime Fathers</li>
-          </ul>
+          <h2 style={{ color: "white" }} className="traphouse-pod">
+            Welcome To The Traphouse Podcast
+          </h2>
+          <MDBRow className="videos-header" style={{ paddingTop: "5%" }}>
+            <MDBCol style={{ width: "100%" }}>
+              <div>
+                <p style={{ color: "#FFFFFF" }}>
+                  SENPAI'S TRAPHOUSE EP. 1: PILOT
+                </p>
+              </div>
+
+              <ReactPlayer url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws" />
+            </MDBCol>
+
+            <MDBCol
+              className="d-flex flex-column"
+              style={{ paddingBottom: "16%", width: "100%" }}
+            >
+              <span className="p-2 text-left">
+                A round table style discussion covering a variety of anime
+                related topics
+              </span>
+
+              <br />
+              <span className="p-2 text-left">
+                -Sake and a snack: Dorayaki, Mochi, Coffee, Pocky, and Sake
+              </span>
+
+              <span className="p-2 text-left">
+                -Icebreaker: how did you get into anime
+              </span>
+
+              <span className="p-2 text-left">
+                -Main Topic: "Good and Bad anime fathers"
+              </span>
+            </MDBCol>
+          </MDBRow>
         </div>
-      </div>
+      </MDBContainer>
     );
   }
 }

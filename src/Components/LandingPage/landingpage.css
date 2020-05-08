@@ -9,6 +9,15 @@
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 8rem;
 }
+@media (max-width: 900px) {
+  .senpai {
+    border: 10px solid red;
+  }
+  .stupid-video {
+    /* display: none; */
+  }
+}
+
 .shadow {
   font-family: "Shadows Into Light", cursive;
   font-size: 2rem;

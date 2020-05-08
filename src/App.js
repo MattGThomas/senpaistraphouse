@@ -29,7 +29,6 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
 `;
 
 function App() {
@@ -37,8 +36,9 @@ function App() {
     // <Container className="App">
     //   <GlobalStyle />
     <div className="App">
-      <GlobalStyle />
+      {/* <GlobalStyle /> */}
       <NavBar sticky="top" />
+
       {/* this content class allows enough rem at bottom of page so footer doesnt come up too far */}
       <div className="Content">
         <Switch>
@@ -62,7 +62,6 @@ function App() {
       <h3>Thanks bro, i appreciate it</h3> */}
       <Footer />
     </div>
-    // </Container>
   );
 }
 
