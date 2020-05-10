@@ -229,6 +229,7 @@ class SchoolRecs extends Component {
                   anyone dubbed by Greg Ayres). There’s romance, a touch of mild
                   drama, and a ton of humor to round out this anime and make it
                   a fun, easy watch. <br />
+                  <br />
                   If you've ever heard of Host Club, it's popularity basically
                   speaks for itself. It's the kind of anime you can watch more
                   than once and never get tired of it.

@@ -11,6 +11,7 @@ import Articles from "../src/Components/Articles/Articles.js";
 import SchoolRecs from "../src/Components/Articles/SchoolRecs.js";
 import ReasonsWhy from "../src/Components/Articles/ReasonsWhy.js";
 import StrangerThings from "../src/Components/Articles/StrangerThings.js";
+import ErrorPage from "../src/Components/ErrorPage/ErrorPage.js";
 import "./App.css";
 
 const GlobalStyle = createGlobalStyle`
@@ -54,7 +55,7 @@ function App() {
             path="/articles/anime-to-try-if-you-like-stranger-things"
             component={StrangerThings}
           />
-          <Route exact path="*" component={() => "404 Page Not Found."} />
+          <Route exact path="*" component={ErrorPage} />
         </Switch>
       </div>
       <Footer />

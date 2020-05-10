@@ -1,0 +1,11 @@
+.error {
+  font-size: 3rem;
+  font-family: "Sedgwick Ave Display", cursive;
+  color: #ffffff;
+  /* text-align: center; */
+}
+@media (max-width: 750px) {
+  .error {
+    padding-top: 15%;
+  }
+}
