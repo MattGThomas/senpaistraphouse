@@ -138,10 +138,7 @@ class LandingPage extends Component {
                 width="100%"
               />
             </MDBCol>
-            <MDBCol
-              className="d-flex flex-column"
-              style={{ paddingBottom: "16%" }}
-            >
+            <MDBCol className="text-left" style={{ paddingBottom: "16%" }}>
               <span className="p-2 text-left">
                 A round table style discussion covering a variety of anime
                 related topics
@@ -151,11 +148,11 @@ class LandingPage extends Component {
               <span className="p-2 text-left">
                 -Sake and a snack: Dorayaki, Mochi, Coffee, Pocky, and Sake
               </span>
-
+              <br />
               <span className="p-2 text-left">
                 -Icebreaker: how did you get into anime
               </span>
-
+              <br />
               <span className="p-2 text-left">
                 -Main Topic: "Good and Bad anime fathers"
               </span>
