@@ -37,10 +37,11 @@ function App() {
     //   <GlobalStyle />
     <div className="App">
       {/* <GlobalStyle /> */}
-      <NavBar sticky="top" />
-
-      {/* this content class allows enough rem at bottom of page so footer doesnt come up too far */}
       <div className="Content">
+        <NavBar sticky="top" />
+
+        {/* this content class allows enough rem at bottom of page so footer doesnt come up too far */}
+
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/about" component={About} />
@@ -56,11 +57,8 @@ function App() {
           />
           <Route exact path="*" component={() => "404 Page Not Found."} />
         </Switch>
+        <Footer />
       </div>
-      {/* <NavBar /> */}
-      {/* <h2>Hello, just show something so im not looking at a white screen</h2>
-      <h3>Thanks bro, i appreciate it</h3> */}
-      <Footer />
     </div>
   );
 }

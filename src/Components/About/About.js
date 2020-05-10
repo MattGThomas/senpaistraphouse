@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
-
+import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about">
         <div className="text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon
@@ -37,7 +37,7 @@ class About extends Component {
                 thought, why not try providing that content myself?{" "}
               </p>
             </MDBCol>
-            <MDBCol></MDBCol>
+            {/* <MDBCol></MDBCol> */}
           </MDBRow>
         </MDBContainer>
       </div>
