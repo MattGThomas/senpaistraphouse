@@ -34,6 +34,10 @@
   }
 } */
 @media (max-width: 750px) {
+  .landing-page-content {
+    min-width: 100vh;
+    /* min-width: 100vh; */
+  }
   .stupid-video {
     display: flex;
     flex-direction: column;

@@ -77,7 +77,7 @@ class LandingPage extends Component {
   };
   render() {
     return (
-      <div style={{ width: "100%" }} className="w-100">
+      <div style={{ width: "100%" }} className="landing-page-content">
         <div>
           <div>
             <h1 style={{ color: "white", paddingTop: "5%" }} className="senpai">
