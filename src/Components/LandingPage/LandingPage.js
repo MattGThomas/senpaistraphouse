@@ -205,7 +205,10 @@ class LandingPage extends Component {
               </h2>
             </div>
             <MDBCol>
-              <ReactPlayer url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws" />
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws"
+                width="100%"
+              />
             </MDBCol>
             <MDBCol
               className="d-flex flex-column"

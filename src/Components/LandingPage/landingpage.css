@@ -10,12 +10,14 @@
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 8rem;
 }
-/* .w-100 {
-  display: flex;
-  width: 100vw;
+.w-100 {
+  /* display: flex; */
+  /* width: 100vh; */
+
   /* position: absolute; */
+}
 /* width: 100vw; */
-/* } */
+/* }
 /* */
 /* @media (max-width: 900px) {
   .senpai {
