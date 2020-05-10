@@ -89,12 +89,12 @@ class NavBar extends Component {
                 {/* <STLogo width="100%" /> */}
               </Link>
             </LogoContainer>
-            <p
+            {/* <p
               style={{ fontSize: "1.5rem", color: this.state.textColor }}
               className="navText"
             >
               <strong>SENPAI'S TRAPHOUSE</strong>
-            </p>
+            </p> */}
             {/* <Zoom>
               <p>GTHis is a test to see if this s working</p>
             </Zoom> */}

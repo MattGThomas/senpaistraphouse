@@ -35,7 +35,7 @@ class Articles extends Component {
   render() {
     return (
       <MDBContainer>
-        <div className="text-left" style={{ paddingLeft: "3%" }}>
+        {/* <div className="text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon
               icon="arrow-circle-left"
@@ -43,13 +43,13 @@ class Articles extends Component {
               style={{ color: "#73bf32" }}
             />
           </Link>
-        </div>
+        </div> */}
         {/* // <div className="d-flex justify-content-center"> */}
         <h2 className="senpais-articles"> Senpai's Articles</h2>
 
         {/* <h3>Back To School Recs</h3> */}
-        <MDBRow style={{ paddingBottom: "3%" }}>
-          <MDBCol>
+        <MDBRow style={{ paddingBottom: "3%" }} className="article-cards">
+          <MDBCol className="relife-card">
             {/* <MDBRow> */}
             <MDBJumbotron
               className="p-0"

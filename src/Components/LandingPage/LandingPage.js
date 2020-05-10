@@ -51,8 +51,8 @@ class LandingPage extends Component {
               <strong>NOTICE ME SENPAI</strong>
             </h2>
           </MDBRow>
-          <MDBRow>
-            <MDBCol>
+          <MDBRow className="mdb-cards">
+            <MDBCol className="mdb-cards-column">
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardImage
                   src={midoriya}
@@ -76,7 +76,8 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
 
-            <MDBCol>
+            <MDBCol className="mdb-cards-column">
+              >
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardBody>
                   <Link to="/articles">
@@ -101,7 +102,8 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
 
-            <MDBCol>
+            <MDBCol className="mdb-cards-column">
+              >
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardImage
                   src={rascal}

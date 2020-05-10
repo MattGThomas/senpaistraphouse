@@ -9,7 +9,11 @@ class ReasonsWhy extends Component {
   render() {
     return (
       <div>
-        <div className="text-left" style={{ paddingLeft: "3%" }}>
+        <div
+          className="text-left"
+          style={{ paddingLeft: "3%" }}
+          className="arrow text-left"
+        >
           <Link to="/articles">
             <MDBIcon
               icon="arrow-circle-left"
@@ -22,7 +26,7 @@ class ReasonsWhy extends Component {
           <strong>IF YOU LIKE... '13 REASONS WHY'</strong>
         </h2>
         <MDBContainer>
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
             <MDBCol>
               <h2 style={{ color: "#da8044" }}>Orange.</h2>
               <p style={{ color: "#da8044" }}>
@@ -118,7 +122,10 @@ class ReasonsWhy extends Component {
               </div>
             </MDBCol>
           </MDBRow>
-          <MDBRow style={{ paddingBottom: "4%" }}>
+          <MDBRow
+            style={{ paddingBottom: "4%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol>
               <div className="text-left">
                 <p style={{ width: "100%", color: "white" }}>

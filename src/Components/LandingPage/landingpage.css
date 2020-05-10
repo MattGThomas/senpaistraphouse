@@ -22,36 +22,11 @@
     padding-top: 15%;
     font-size: 4rem;
   }
-  .japanese {
-    /* font-size: 0.1rem; */
-  }
 }
 .japanese {
   font-size: 2rem;
 }
-.w-100 {
-  /* display: flex; */
-  /* width: 100vh; */
 
-  /* position: absolute; */
-}
-/* width: 100vw; */
-/* }
-/* */
-/* @media (max-width: 900px) {
-  .senpai {
-    border: 10px solid red;
-  }
-  .stupid-video {
-    /* display: none;
-    color: white; */
-/* }
-}  */
-/* @media (max-width: 750px) {
-  .w-100 {
-    min-width: 100vh;
-  }
-} */
 @media (max-width: 750px) {
   .landing-page-content {
     min-width: 100vh;
@@ -73,8 +48,14 @@
 }
 @media (max-width: 750px) {
   .text-center {
-    /* padding-top:%; */
+    /* padding-top: 7%; */
     font-size: 1.5rem;
+  }
+  .mdb-cards {
+    flex-direction: column;
+  }
+  .mdb-cards-column {
+    padding-bottom: 5%;
   }
 }
 .shadow {

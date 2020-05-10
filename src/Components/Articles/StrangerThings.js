@@ -11,7 +11,11 @@ class StrangerThings extends Component {
   render() {
     return (
       <div>
-        <div className="text-left" style={{ paddingLeft: "3%" }}>
+        <div
+          className="text-left"
+          style={{ paddingLeft: "3%" }}
+          className="arrow text-left"
+        >
           <Link to="/articles">
             <MDBIcon
               icon="arrow-circle-left"
@@ -24,7 +28,7 @@ class StrangerThings extends Component {
           <strong>IF YOU LIKE... 'STRANGER THINGS'</strong>
         </h2>
         <MDBContainer>
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
             <MDBCol>
               <h2 style={{ color: "#da8044" }}>The Promised Neverland</h2>
               <p style={{ color: "#da8044" }}>
@@ -123,7 +127,7 @@ class StrangerThings extends Component {
               </div>
             </MDBCol>
           </MDBRow>
-          <MDBRow>
+          <MDBRow className="school-recs-reverse">
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -224,7 +228,7 @@ class StrangerThings extends Component {
               <img src={abyss} style={{ width: "100%" }} />
             </MDBCol>
           </MDBRow>
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
             <MDBCol>
               <h2 style={{ color: "#8d2424" }}>Parasyte: The Maxim</h2>
               <p style={{ color: "#8d2424" }}>
@@ -324,7 +328,10 @@ class StrangerThings extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -374,13 +381,16 @@ class StrangerThings extends Component {
                     Similarities
                   </span>
                   <br />
-                  (Mild Spoilers) Much like Stranger Things, Neon Genesis is
-                  definitely a coming of age story. No one has powers, but we do
-                  see a group of kids thrust into the thick of action, having to
-                  overcome obstacles in an attempt to save their city. There is
-                  a lot of growing up going on in Neon Genesis, much like with
-                  kids of Hawkins, and at times it can be hard to navigate that
-                  while trying to engage in life threatening battles.
+                  <span style={{ color: "red", fontSize: "1.3rem" }}>
+                    (Mild Spoilers)
+                  </span>{" "}
+                  Much like Stranger Things, Neon Genesis is definitely a coming
+                  of age story. No one has powers, but we do see a group of kids
+                  thrust into the thick of action, having to overcome obstacles
+                  in an attempt to save their city. There is a lot of growing up
+                  going on in Neon Genesis, much like with kids of Hawkins, and
+                  at times it can be hard to navigate that while trying to
+                  engage in life threatening battles.
                   <br />
                   <br />
                   Much like the secret organization that held Eleven, Neon

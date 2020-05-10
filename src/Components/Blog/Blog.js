@@ -1,21 +1,31 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import gif from "../../images/gif.gif";
-import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow, MDBIcon } from "mdbreact";
 import "./blog.css";
 
 class Blog extends Component {
   render() {
     return (
-      <MDBContainer>
+      <MDBContainer className="blog">
+        {/* <div className="arrow text-left" style={{ paddingLeft: "3%" }}>
+          <Link to="/">
+            <MDBIcon
+              icon="arrow-circle-left"
+              size="3x"
+              style={{ color: "#73bf32" }}
+            />
+          </Link>
+        </div> */}
         <h2 className="blog-header">
           <strong>SENPAI'S BLOG</strong>
         </h2>
         <MDBRow style={{ paddingBottom: "3%" }}>
-          <MDBCol>
-            <div style={{ color: "white" }} className="text-left">
-              <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
-              <img src={gif} style={{ width: "100%" }} />
-              {/* <div>
+          {/* <MDBCol> */}
+          <div style={{ color: "white" }} className="text-left">
+            <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
+            <img src={gif} style={{ width: "100%" }} />
+            {/* <div>
                 <div>
                   <p>AUTHOR</p>
                   <p>just a few words from your Senpai</p>
@@ -29,8 +39,8 @@ class Blog extends Component {
                   <p>different category options</p>
                 </div>
               </div> */}
-            </div>
-          </MDBCol>
+          </div>
+          {/* </MDBCol> */}
           <MDBCol>
             <div className="text-left" style={{ color: "white" }}>
               <p className="blog-text">

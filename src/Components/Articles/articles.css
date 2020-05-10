@@ -8,6 +8,27 @@
   color: #ffffff;
   padding-bottom: 3%;
 }
+@media (max-width: 750px) {
+  .senpais-articles {
+    padding-top: 17%;
+  }
+  .article-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .p-0 {
+    padding-bottom: 10%;
+  }
+  .relife-card {
+    padding-bottom: 30%;
+  }
+  .school-recs {
+    flex-direction: column;
+  }
+  .school-recs-reverse {
+    flex-direction: column-reverse;
+  }
+}
 .schoolRecs {
   font-family: "Shadows Into Light", cursive;
   color: #ffffff;

@@ -20,7 +20,7 @@ class SchoolRecs extends Component {
           paddingRight: 0,
         }}
       >
-        <div className="text-left" style={{ paddingLeft: "3%" }}>
+        <div className="arrow text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/articles">
             <MDBIcon
               icon="arrow-circle-left"
@@ -33,7 +33,10 @@ class SchoolRecs extends Component {
           <strong>BACK TO SCHOOL RECS</strong>
         </h2>
         <MDBContainer>
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol style={{ paddingRight: 0, marginRight: 0 }}>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -55,7 +58,12 @@ class SchoolRecs extends Component {
                   perspective on life as a whole.
                   <br />
                   <br />
-                  <span style={{ color: "#5cbce0", fontSize: "1.3rem" }}>
+                  <span
+                    style={{
+                      color: "#5cbce0",
+                      fontSize: "1.3rem",
+                    }}
+                  >
                     Why:
                   </span>
                   <br />
@@ -101,7 +109,7 @@ class SchoolRecs extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
             <MDBCol>
               <h2 style={{ color: "#8640ae" }}>Just Because</h2>
               <p style={{ color: "#8640ae" }}>
@@ -179,7 +187,10 @@ class SchoolRecs extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow style={{ paddingBottom: "3%" }}>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol style={{ paddingRight: 0, marginRight: 0 }}>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -234,7 +245,8 @@ class SchoolRecs extends Component {
               <img src={hostClub} style={{ width: "100%" }} />
             </MDBCol>
           </MDBRow>
-          <MDBRow style={{ paddingBottom: "3%" }}>
+
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
             <MDBCol>
               <h2 style={{ color: "#dab844" }}>Golden Time</h2>
               <p style={{ color: "#dab844" }}>
