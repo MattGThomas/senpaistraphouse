@@ -10,6 +10,25 @@
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 8rem;
 }
+
+.traphouse {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 8rem;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .traphouse {
+    padding-top: 15%;
+    font-size: 4rem;
+  }
+  .japanese {
+    /* font-size: 0.1rem; */
+  }
+}
+.japanese {
+  font-size: 2rem;
+}
 .w-100 {
   /* display: flex; */
   /* width: 100vh; */
@@ -44,8 +63,19 @@
   }
 }
 
+.text-center {
+  padding-top: 5%;
+  font-family: "Shadows Into Light", cursive;
+}
+@media (max-width: 750px) {
+  .text-center {
+    /* padding-top:%; */
+    font-size: 1.5rem;
+  }
+}
 .shadow {
   font-family: "Shadows Into Light", cursive;
+  /* padding-top: 2.5%; */
   font-size: 2rem;
 }
 .landing-card-title {

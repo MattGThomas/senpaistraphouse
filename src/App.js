@@ -37,9 +37,8 @@ function App() {
     //   <GlobalStyle />
     <div className="App">
       {/* <GlobalStyle /> */}
+      <NavBar sticky="top" />
       <div className="Content">
-        <NavBar sticky="top" />
-
         {/* this content class allows enough rem at bottom of page so footer doesnt come up too far */}
 
         <Switch>
@@ -57,8 +56,8 @@ function App() {
           />
           <Route exact path="*" component={() => "404 Page Not Found."} />
         </Switch>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
