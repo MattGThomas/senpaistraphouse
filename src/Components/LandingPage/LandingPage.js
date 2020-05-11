@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import PictureGallery from "../Gallery/PictureGallery.js";
 import logo from "../../images/traphouselogo.png";
 
 import midoriya from "../../images/midoriya.png";
@@ -75,7 +75,6 @@ class LandingPage extends Component {
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
-
             <MDBCol className="mdb-cards-column">
               >
               <MDBCard style={{ height: "300px" }}>

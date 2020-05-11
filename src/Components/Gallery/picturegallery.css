@@ -1,0 +1,16 @@
+@media (max-width: 750px) {
+  .picture-gallery {
+    flex-direction: column;
+  }
+}
+.circle-dots {
+  display: flex;
+  flex-direction: column;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+}
+.pic-arrows {
+  display: none;
+}
