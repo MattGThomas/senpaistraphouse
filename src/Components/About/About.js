@@ -21,7 +21,7 @@ class About extends Component {
         <MDBContainer>
           <MDBRow>
             <MDBCol>
-              <p className="text-left" style={{ color: "white" }}>
+              <p className="text-left text-para" style={{ color: "white" }}>
                 Senpai's Traphouse is a site for fans, run by fans, providing a
                 new, fresh take on everyone's favorite shows from a more urban
                 perspective. This is about being able to take one of favorite

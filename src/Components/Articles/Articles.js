@@ -21,6 +21,7 @@ import hostClub from "../../images/host-club.jpg";
 import reasons from "../../images/reasons-why.jpg";
 import neverland from "../../images/neverland.jpg";
 import gif from "../../images/gif.gif";
+import threed from "../../images/new_logos/3d_logo.jpg";
 import "./articles.css";
 
 class Articles extends Component {
@@ -34,7 +35,7 @@ class Articles extends Component {
 
   render() {
     return (
-      <MDBContainer>
+      <MDBContainer style={{ backgroundImage: `url(${threed})` }}>
         {/* <div className="text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon

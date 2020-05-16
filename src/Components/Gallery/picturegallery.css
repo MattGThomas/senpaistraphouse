@@ -1,7 +1,21 @@
+.picture-gallery {
+  padding-top: 3%;
+}
 @media (max-width: 750px) {
   .picture-gallery {
+    padding-top: 7%;
     flex-direction: column;
   }
+}
+@media (max-width: 450px) {
+  .picture-gallery {
+    padding-top: 12%;
+  }
+}
+.picture-gallery-header {
+  font-family: "Sedgwick Ave Display", cursive;
+  color: white;
+  padding-bottom: 3%;
 }
 .circle-dots {
   display: flex;
@@ -12,5 +26,7 @@
   flex-direction: row;
 }
 .pic-arrows {
-  display: none;
+  display: flex;
+  justify-content: space-evenly;
+  /* display: none; */
 }

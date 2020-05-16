@@ -24,3 +24,11 @@
     padding-top: 15%;
   }
 }
+.text-para {
+  width: 50%;
+}
+@media (max-width: 450px) {
+  .text-para {
+    width: 100%;
+  }
+}

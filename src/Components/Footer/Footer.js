@@ -17,31 +17,31 @@ const FooterContainer = Styled.div`
 `;
 const Footer = () => {
   return (
-    <MDBFooter>
-      <FooterContainer class="footer">
-        {/* <MDBFooter> */}
-        <MDBRow>
-          <a target="_blank" href="https://www.facebook.com/Senpaistraphouse/">
-            <MDBIcon
-              fab
-              icon="facebook"
-              size="3x"
-              style={{ paddingRight: "10px", color: "black" }}
-            />
-          </a>
-          <a target="_blank" href="https://twitter.com/senpaistraphous">
-            <MDBIcon
-              fab
-              icon="twitter"
-              size="3x"
-              style={{ paddingRight: "10px", color: "black" }}
-            />
-          </a>
-          <MDBIcon far icon="envelope" size="3x" style={{ color: "black" }} />
-        </MDBRow>
-        {/* </MDBFooter> */}
-      </FooterContainer>
-    </MDBFooter>
+    // <MDBFooter>
+    <FooterContainer class="footer">
+      {/* <MDBFooter> */}
+      <MDBRow>
+        <a target="_blank" href="https://www.facebook.com/Senpaistraphouse/">
+          <MDBIcon
+            fab
+            icon="facebook"
+            size="3x"
+            style={{ paddingRight: "10px", color: "black" }}
+          />
+        </a>
+        <a target="_blank" href="https://twitter.com/senpaistraphous">
+          <MDBIcon
+            fab
+            icon="twitter"
+            size="3x"
+            style={{ paddingRight: "10px", color: "black" }}
+          />
+        </a>
+        <MDBIcon far icon="envelope" size="3x" style={{ color: "black" }} />
+      </MDBRow>
+      {/* </MDBFooter> */}
+    </FooterContainer>
+    // </MDBFooter>
   );
 };
 

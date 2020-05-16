@@ -13,6 +13,9 @@ import ReasonsWhy from "../src/Components/Articles/ReasonsWhy.js";
 import StrangerThings from "../src/Components/Articles/StrangerThings.js";
 import ErrorPage from "../src/Components/ErrorPage/ErrorPage.js";
 import PictureGallery from "../src/Components/Gallery/PictureGallery";
+import hmmm from "./images/new_logos/hmmm.jpg";
+
+import threed from "./images/new_logos/3d_logo.jpg";
 import "./App.css";
 
 const GlobalStyle = createGlobalStyle`
@@ -37,7 +40,7 @@ function App() {
   return (
     // <Container className="App">
     //   <GlobalStyle />
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${threed})` }}>
       {/* <GlobalStyle /> */}
       <NavBar sticky="top" />
       <div className="Content">
@@ -56,7 +59,8 @@ function App() {
             path="/articles/anime-to-try-if-you-like-stranger-things"
             component={StrangerThings}
           />
-          <Route exact path="*" component={PictureGallery} />
+          <Route exact path="/senpais-gallery" component={PictureGallery} />
+          <Route exact path="*" component={ErrorPage} />
         </Switch>
       </div>
       <Footer />

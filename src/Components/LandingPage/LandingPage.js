@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PictureGallery from "../Gallery/PictureGallery.js";
 import logo from "../../images/traphouselogo.png";
-
+import new_logo from "../../images/new_logos/new_logo.png";
+// import logo_two from "../../images/logo_two.png";
 import midoriya from "../../images/midoriya.png";
 import article_image from "../../images/article_image.jpg";
 import rascal from "../../images/rascal.jpg";
@@ -33,16 +34,24 @@ class LandingPage extends Component {
             <strong>SENPAI'S TRAPHOUSE</strong>
           </h1>
           <p style={{ color: "white" }} className="japanese">
-            (せんぱい の わな)
+            <strong>(せんぱい の わな)</strong>
           </p>
         </div>
-        <img src={logo} style={{ height: "35%", width: "35%" }} />
-        <p
-          style={{ color: "white", paddingTop: "5%", paddingBottom: "5%" }}
-          className="shadow"
-        >
+        <img
+          src={new_logo}
+          style={{ height: "35%", width: "35%" }}
+          alt="logo"
+        />
+        {/* <img src={logo} style={{ height: "35%", width: "35%" }} /> */}
+        <p style={{ paddingTop: "5%", paddingBottom: "5%" }} className="shadow">
           <strong>
-            Consuming, Promoting and Reviewing Anime from and Urban Perspective
+            Anime...
+            <br /> from
+            <span style={{ color: "black" }}>
+              <br /> an Urban
+            </span>
+            <br /> Perspective
+            {/* Consuming, Promoting and Reviewing Anime from and Urban Perspective */}
           </strong>
         </p>
         <MDBContainer>

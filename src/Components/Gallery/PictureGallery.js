@@ -42,7 +42,7 @@ class PictureGallery extends Component {
     let index = this.state.index;
     if (index === 0) {
       return (
-        <div style={{ color: "white" }} className="text-right">
+        <div style={{ color: "white" }} className="text-left">
           <h2>Character: Hisoka</h2>
           <p>Anime: Hunter x Hunter</p>
         </div>
@@ -77,7 +77,10 @@ class PictureGallery extends Component {
       );
     } else if (index === 5) {
       return (
-        <div style={{ color: "white" }} className="text-right">
+        <div
+          style={{ color: "white", height: "200px", width: "200px" }}
+          className="text-right"
+        >
           <h2>Character: Venom</h2>
           <p>Anime, not anime: Marvel Comics</p>
           <p>I know this is an anime site, but this was just too good</p>
@@ -97,11 +100,55 @@ class PictureGallery extends Component {
 
   render() {
     return (
-      <MDBContainer>
-        <MDBRow className="picture-gallery" style={{ paddingBottom: "10%" }}>
+      <MDBContainer className="picture-gallery">
+        <h2 className="picture-gallery-header">Senpai's Picture Gallery</h2>
+        <MDBRow style={{ paddingBottom: "7%" }}>
           <MDBCol>
-            {/* <div> */}
+            <img
+              src={this.state.pictureList[0]}
+              alt=""
+              style={{ width: "100%" }}
+            />{" "}
+          </MDBCol>
+          <MDBCol>
+            <img
+              src={this.state.pictureList[1]}
+              alt=""
+              style={{ width: "100%", paddingBottom: "7%" }}
+            />
+            <img
+              src={this.state.pictureList[2]}
+              alt=""
+              style={{ width: "100%" }}
+            />
+          </MDBCol>
+        </MDBRow>
+        <MDBRow>
+          <MDBCol>
+            <img
+              src={this.state.pictureList[3]}
+              alt=""
+              style={{ width: "100%", paddingBottom: "7%" }}
+            />
+            <img
+              src={this.state.pictureList[4]}
+              alt=""
+              style={{ width: "100%" }}
+            />
+          </MDBCol>
+          <MDBCol>
+            <img
+              src={this.state.pictureList[5]}
+              alt=""
+              style={{ width: "100%" }}
+            />
+          </MDBCol>
+        </MDBRow>
+        {/* <MDBRow className="picture-gallery" style={{ paddingBottom: "10%" }}>
+          <MDBCol> */}
+        {/* <div> */}
 
+        {/* 
             <div className="pictures">
               <img
                 src={this.state.pictureList[this.state.index]}
@@ -181,32 +228,34 @@ class PictureGallery extends Component {
                 />
               </div>
             </div>
-
-            {/* <MDBBtn onClick={this.prevPic} outline="true" color="white">
-              prev
-            </MDBBtn> */}
             <div className="pic-arrows">
               <MDBIcon
                 icon="arrow-alt-circle-left"
                 size="2x"
                 onClick={this.prevPic}
+                style={{ color: "#73bf32" }}
               />
 
               <MDBIcon
                 icon="arrow-alt-circle-right"
                 size="2x"
                 onClick={this.nextPic}
+                style={{ color: "#73bf32" }}
               />
-            </div>
-            {/* <MDBBtn onClick={this.nextPic} outline="true" color="white">
+            </div> */}
+        {/* <MDBBtn onClick={this.prevPic} outline="true" color="white">
+              prev
+            </MDBBtn> */}
+
+        {/* <MDBBtn onClick={this.nextPic} outline="true" color="white">
               next
             </MDBBtn> */}
-            {/* </div> */}
-          </MDBCol>
+        {/* </div> */}
+        {/* </MDBCol>
           <MDBCol>
             <div>{this.pictureCaption}</div>
           </MDBCol>
-        </MDBRow>
+        </MDBRow> */}
       </MDBContainer>
     );
   }
