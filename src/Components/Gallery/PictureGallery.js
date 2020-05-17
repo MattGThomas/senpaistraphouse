@@ -6,6 +6,7 @@ import stab_ban from "../../images/Traphouse Pics/stab_ban.jpeg";
 import unknown from "../../images/Traphouse Pics/unknown.jpeg";
 import venom from "../../images/Traphouse Pics/venom.jpeg";
 import yang from "../../images/Traphouse Pics/yangvbakugo.jpg";
+import threed from "../../images/new_logos/3d_logo.jpg";
 import "./picturegallery.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
@@ -128,7 +129,10 @@ class PictureGallery extends Component {
 
   render() {
     return (
-      <MDBContainer className="picture-gallery">
+      <MDBContainer
+        className="picture-gallery"
+        style={{ backgroundImage: `url(${threed})` }}
+      >
         <h2 className="picture-gallery-header">Senpai's Picture Gallery</h2>
         <MDBRow style={{ paddingBottom: "7%" }} className="picture-row">
           <MDBCol style={{ height: "100%" }}>

@@ -26,10 +26,19 @@ class ReasonsWhy extends Component {
           <strong>IF YOU LIKE... '13 REASONS WHY'</strong>
         </h2>
         <MDBContainer>
-          <MDBRow
-            style={{ paddingBottom: "3%" }}
-            className="school-recs-reverse"
-          >
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
+            <MDBCol>
+              <h2 style={{ color: "#da8044" }}>Orange.</h2>
+              <p style={{ color: "#da8044" }}>
+                <em>
+                  <strong>
+                    Available dubbed on Funimation and subbed on Crunchyroll and
+                    VRV.
+                  </strong>
+                </em>
+              </p>
+              <img src={orange} style={{ width: "100%" }} alt="" />
+            </MDBCol>
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -111,18 +120,6 @@ class ReasonsWhy extends Component {
                   better.
                 </p>
               </div>
-            </MDBCol>
-            <MDBCol>
-              <h2 style={{ color: "#da8044" }}>Orange.</h2>
-              <p style={{ color: "#da8044" }}>
-                <em>
-                  <strong>
-                    Available dubbed on Funimation and subbed on Crunchyroll and
-                    VRV.
-                  </strong>
-                </em>
-              </p>
-              <img src={orange} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
           <MDBRow

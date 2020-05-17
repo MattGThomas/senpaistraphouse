@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
+import threed from "../../images/new_logos/3d_logo.jpg";
 import gif from "../../images/gif.gif";
 import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
 // import threed_logo from "../../images/new_logos/3d_logo.jpg";
@@ -10,7 +11,7 @@ class Blog extends Component {
     return (
       <MDBContainer
         className="blog"
-        // style={{ backgroundImage: `url(${threed_logo})` }}
+        style={{ backgroundImage: `url(${threed})` }}
       >
         {/* <div className="arrow text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">

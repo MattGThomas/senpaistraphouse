@@ -1,20 +1,12 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import { MDBRow, MDBCol, MDBContainer } from "mdbreact";
+import threed from "../../images/new_logos/3d_logo.jpg";
 import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div className="about">
-        {/* <div className="text-left" style={{ paddingLeft: "3%" }}>
-          <Link to="/">
-            <MDBIcon
-              icon="arrow-circle-left"
-              size="3x"
-              style={{ color: "#73bf32" }}
-            />
-          </Link>
-        </div> */}
+      <div className="about" style={{ backgroundImage: `url(${threed})` }}>
         <h2 className="reasons-1" style={{ paddingBottom: "3%" }}>
           <strong>About the traphouse</strong>
         </h2>

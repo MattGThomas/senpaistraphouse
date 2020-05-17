@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import threed from "../../images/new_logos/3d_logo.jpg";
 import "./videos.css";
 class Videos extends Component {
   render() {
     return (
       <div>
-        <MDBContainer>
+        <MDBContainer
+          style={{ backgroundImage: `url(${threed})` }}
+          className="videos-background"
+        >
           <div className="videos">
             <h2 style={{ color: "white" }}>WELCOME TO THE TRAPHOUSE PODCAST</h2>
           </div>

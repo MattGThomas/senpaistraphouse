@@ -10,7 +10,9 @@
   }
 }
 .picture-gallery {
+  padding-top: 9%;
   padding-bottom: 5%;
+  min-width: 100vw;
 }
 .picture-container {
   position: relative;

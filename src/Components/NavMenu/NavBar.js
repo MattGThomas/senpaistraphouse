@@ -37,7 +37,6 @@ const LogoContainer = Styled.div`
 // const MDBContainer = Styled.div`
 //   display: flex;
 //   width: 100%;
-//   height: 100vh;
 
 // `;
 class NavBar extends Component {
@@ -73,9 +72,9 @@ class NavBar extends Component {
       backDrop = <Backdrop clickHandler={this.backDropClick} />;
     }
     return (
-      // <MDBContainer class="d-flex">
+      // <MDBContainer>
       <div className="w-100">
-        <div style={{ paddingBottom: "7%" }}>
+        <div className="nav">
           <NavContainer
             className="nav-container"
             style={{ height: "70px", width: "100%" }}

@@ -131,7 +131,16 @@ class StrangerThings extends Component {
               <img src={neverland} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
-          <MDBRow className="school-recs-reverse">
+          <MDBRow className="school-recs">
+            <MDBCol>
+              <h2 style={{ color: "#81c94c" }}>Made in the Abyss</h2>
+              <p style={{ color: "#81c94c" }}>
+                <em>
+                  <strong>Available dubbed and subbed on VRV and HiDive</strong>
+                </em>
+              </p>
+              <img src={abyss} style={{ width: "100%" }} alt="" />
+            </MDBCol>
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -221,15 +230,6 @@ class StrangerThings extends Component {
                   pain.
                 </p>
               </div>
-            </MDBCol>
-            <MDBCol>
-              <h2 style={{ color: "#81c94c" }}>Made in the Abyss</h2>
-              <p style={{ color: "#81c94c" }}>
-                <em>
-                  <strong>Available dubbed and subbed on VRV and HiDive</strong>
-                </em>
-              </p>
-              <img src={abyss} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
           <MDBRow
@@ -335,10 +335,20 @@ class StrangerThings extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow
-            style={{ paddingBottom: "3%" }}
-            className="school-recs-reverse"
-          >
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
+            <MDBCol>
+              <h2 style={{ color: "#8640ae" }}>Neon Genesis Evangelion</h2>
+              <p style={{ color: "#8640ae" }}>
+                <em>
+                  <strong>
+                    Available dubbed (new 2019 version) and subbed on Netflix.
+                    <br /> Original 90’s dub cast can be found on DVD (I
+                    purchased a set on Ebay at the beginning of 2019)
+                  </strong>
+                </em>
+              </p>
+              <img src={evangelion} style={{ width: "100%" }} alt="" />
+            </MDBCol>
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -434,19 +444,6 @@ class StrangerThings extends Component {
                   dead-beat dad of the year.
                 </p>
               </div>
-            </MDBCol>
-            <MDBCol>
-              <h2 style={{ color: "#8640ae" }}>Neon Genesis Evangelion</h2>
-              <p style={{ color: "#8640ae" }}>
-                <em>
-                  <strong>
-                    Available dubbed (new 2019 version) and subbed on Netflix.
-                    <br /> Original 90’s dub cast can be found on DVD (I
-                    purchased a set on Ebay at the beginning of 2019)
-                  </strong>
-                </em>
-              </p>
-              <img src={evangelion} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
         </MDBContainer>
