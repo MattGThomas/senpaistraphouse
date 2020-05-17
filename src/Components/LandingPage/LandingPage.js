@@ -43,14 +43,18 @@ class LandingPage extends Component {
         {/* <img src={logo} style={{ height: "35%", width: "35%" }} /> */}
         <p style={{ paddingTop: "5%", paddingBottom: "5%" }} className="shadow">
           <strong>
+            Anime from an <br />
+            <span>Urban Perspective</span>
+          </strong>
+          {/* <strong>
             Anime...
             <br /> from
             <span style={{ color: "black" }}>
               <br /> an Urban
             </span>
             <br /> Perspective
-            {/* Consuming, Promoting and Reviewing Anime from and Urban Perspective */}
-          </strong>
+            Consuming, Promoting and Reviewing Anime from and Urban Perspective
+          </strong> */}
         </p>
         <MDBContainer>
           <MDBRow className="d-flex flex-column">

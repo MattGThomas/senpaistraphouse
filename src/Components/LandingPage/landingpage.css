@@ -61,10 +61,10 @@
 .shadow {
   font-family: "Shadows Into Light", cursive;
   padding-top: 2.5%;
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
   font-size: 4rem;
-  color: white;
-  /* color: black; */
+  /* color: white; */
+  color: yellow;
 }
 /* .thought {
   display: flex;
