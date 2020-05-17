@@ -113,10 +113,19 @@ class SchoolRecs extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow
-            style={{ paddingBottom: "3%" }}
-            className="school-recs-reverse"
-          >
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
+            <MDBCol>
+              <h2 style={{ color: "#8640ae" }}>Just Because</h2>
+              <p style={{ color: "#8640ae" }}>
+                <em>
+                  <strong>
+                    Available subbed on Amazon Prime Video & <br />
+                    subbed and dubbed on VRV and HiDive
+                  </strong>
+                </em>
+              </p>
+              <img src={justBecause} style={{ width: "100%" }} alt="" />
+            </MDBCol>
             <MDBCol style={{ paddingRight: 0, marginRight: 0 }}>
               <div className="text-left">
                 <strong>
@@ -185,18 +194,6 @@ class SchoolRecs extends Component {
                 </strong>
               </div>
             </MDBCol>
-            <MDBCol>
-              <h2 style={{ color: "#8640ae" }}>Just Because</h2>
-              <p style={{ color: "#8640ae" }}>
-                <em>
-                  <strong>
-                    Available subbed on Amazon Prime Video & <br />
-                    subbed and dubbed on VRV and HiDive
-                  </strong>
-                </em>
-              </p>
-              <img src={justBecause} style={{ width: "100%" }} alt="" />
-            </MDBCol>
           </MDBRow>
 
           <MDBRow
@@ -261,10 +258,20 @@ class SchoolRecs extends Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow
-            style={{ paddingBottom: "3%" }}
-            className="school-recs-reverse"
-          >
+          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
+            <MDBCol>
+              <h2 style={{ color: "#dab844" }}>Golden Time</h2>
+              <p style={{ color: "#dab844" }}>
+                <em>
+                  <strong>
+                    Available subbed VRV and HiDive. <br />
+                    (It was recently announced that HIDIVE <br />
+                    will be releasing a dubbed version on DVD)
+                  </strong>
+                </em>
+              </p>
+              <img src={goldenTime} style={{ width: "100%" }} alt="" />
+            </MDBCol>
             <MDBCol style={{ paddingRight: 0, marginRight: 0 }}>
               <div className="text-left">
                 <strong>
@@ -313,19 +320,6 @@ class SchoolRecs extends Component {
                   </p>
                 </strong>
               </div>
-            </MDBCol>
-            <MDBCol>
-              <h2 style={{ color: "#dab844" }}>Golden Time</h2>
-              <p style={{ color: "#dab844" }}>
-                <em>
-                  <strong>
-                    Available subbed VRV and HiDive. <br />
-                    (It was recently announced that HIDIVE <br />
-                    will be releasing a dubbed version on DVD)
-                  </strong>
-                </em>
-              </p>
-              <img src={goldenTime} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
         </MDBContainer>

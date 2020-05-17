@@ -8,6 +8,17 @@
   color: #ffffff;
   padding-bottom: 3%;
 }
+.arrow {
+  padding-top: 7%;
+}
+.articles-front {
+  min-width: 100vw;
+}
+@media (max-width: 375px) {
+  .arrow {
+    padding-top: 20%;
+  }
+}
 @media (max-width: 750px) {
   .senpais-articles {
     padding-top: 17%;

@@ -63,7 +63,7 @@ const sideDrawer = (props) => {
           <ListItem className="side-drawer-items">VIDEOS</ListItem>
         </Link>
         <Link to="/senpais-gallery">
-          <ListItem className="side-drawer-items">Gallery</ListItem>
+          <ListItem className="side-drawer-items">GALLERY</ListItem>
         </Link>
       </NavList>
     </SideDrawerNav>

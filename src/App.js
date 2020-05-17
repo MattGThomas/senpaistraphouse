@@ -15,7 +15,7 @@ import ErrorPage from "../src/Components/ErrorPage/ErrorPage.js";
 import PictureGallery from "../src/Components/Gallery/PictureGallery";
 // import hmmm from "./images/new_logos/hmmm.jpg";
 
-import threed from "./images/new_logos/3d_logo.jpg";
+// import threed from "./images/new_logos/3d_logo.jpg";
 import "./App.css";
 
 // const GlobalStyle = createGlobalStyle`
@@ -40,7 +40,7 @@ function App() {
   return (
     // <Container className="App">
     //   <GlobalStyle />
-    <div className="App" style={{ backgroundImage: `url(${threed})` }}>
+    <div className="App">
       {/* <GlobalStyle /> */}
       <NavBar sticky="top" />
       <div className="Content">

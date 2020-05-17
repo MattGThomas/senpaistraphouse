@@ -8,6 +8,7 @@ import midoriya from "../../images/midoriya.png";
 import article_image from "../../images/article_image.jpg";
 import rascal from "../../images/rascal.jpg";
 // import Footer from "../../Components/Footer/Footer.js";
+import threed from "../../images/new_logos/3d_logo.jpg";
 
 import {
   MDBContainer,
@@ -26,7 +27,7 @@ import "./landingpage.css";
 class LandingPage extends Component {
   render() {
     return (
-      <div>
+      <div style={{ backgroundImage: `url(${threed})` }}>
         <div>
           <h1 className="traphouse">
             <strong>SENPAI'S TRAPHOUSE</strong>

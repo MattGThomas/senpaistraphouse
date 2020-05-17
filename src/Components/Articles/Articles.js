@@ -29,7 +29,10 @@ class Articles extends Component {
 
   render() {
     return (
-      <MDBContainer style={{ backgroundImage: `url(${threed})` }}>
+      <MDBContainer
+        style={{ backgroundImage: `url(${threed})` }}
+        className="articles-front"
+      >
         {/* <div className="text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon
