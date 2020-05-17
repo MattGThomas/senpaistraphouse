@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Styled from "styled-components";
-import { BrowserRouter as Router } from "react-router-dom";
-// import STLogo from "../Logo/STLogo";
-// import WowoWordLogo from "../../images/WowoWordLogo.js";
-import logo from "../../images/traphouselogo.png";
 
+import new_logo from "../../images/new_logos/new_logo.png";
 import Backdrop from "./Backdrop.js";
 import NavButton from "./NavButton.js";
 import SideDrawer from "./SideDrawer.js";
@@ -37,12 +34,12 @@ const LogoContainer = Styled.div`
     }
 `;
 
-const MDBContainer = Styled.div`
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  
-`;
+// const MDBContainer = Styled.div`
+//   display: flex;
+//   width: 100%;
+//   height: 100vh;
+
+// `;
 class NavBar extends Component {
   state = {
     sideDrawerOpen: false,
@@ -85,7 +82,8 @@ class NavBar extends Component {
           >
             <LogoContainer className="logo-container">
               <Link to="/">
-                <img src={logo} alt="logo" style={{ height: "50px" }} />
+                <img src={new_logo} alt="logo" style={{ height: "75px" }} />
+                {/* <img src={logo} alt="logo" style={{ height: "50px" }} /> */}
                 {/* <STLogo width="100%" /> */}
               </Link>
             </LogoContainer>

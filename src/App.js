@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import styled, { createGlobalStyle } from "styled-components";
+// import styled, { createGlobalStyle } from "styled-components";
 import NavBar from "../src/Components/NavMenu/NavBar.js";
 import Footer from "../src/Components/Footer/Footer.js";
 import LandingPage from "./Components/LandingPage/LandingPage.js";
@@ -12,31 +12,35 @@ import SchoolRecs from "../src/Components/Articles/SchoolRecs.js";
 import ReasonsWhy from "../src/Components/Articles/ReasonsWhy.js";
 import StrangerThings from "../src/Components/Articles/StrangerThings.js";
 import ErrorPage from "../src/Components/ErrorPage/ErrorPage.js";
+import PictureGallery from "../src/Components/Gallery/PictureGallery";
+// import hmmm from "./images/new_logos/hmmm.jpg";
+
+import threed from "./images/new_logos/3d_logo.jpg";
 import "./App.css";
 
-const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap')
+// const GlobalStyle = createGlobalStyle`
+//     @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap')
 
-    html, body {
-        font-family: 'Open Sans', sans-serif !important;
-    }
+//     html, body {
+//         font-family: 'Open Sans', sans-serif !important;
+//     }
 
-    #root {
-        min-height: 100vh;
-    }
-`;
-const Container = styled.div`
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+//     #root {
+//         min-height: 100vh;
+//     }
+// `;
+// const Container = styled.div`
+//   height: auto;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
 function App() {
   return (
     // <Container className="App">
     //   <GlobalStyle />
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${threed})` }}>
       {/* <GlobalStyle /> */}
       <NavBar sticky="top" />
       <div className="Content">
@@ -55,6 +59,7 @@ function App() {
             path="/articles/anime-to-try-if-you-like-stranger-things"
             component={StrangerThings}
           />
+          <Route exact path="/senpais-gallery" component={PictureGallery} />
           <Route exact path="*" component={ErrorPage} />
         </Switch>
       </div>

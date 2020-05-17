@@ -7,7 +7,7 @@ import "./SideDrawer.css";
 // background of sidedrawer currently is: ccc
 const SideDrawerNav = Styled.nav`
     height: 92%;
-    background: #FFFFFF;
+    background: #73bf32;
     box-shadow: -1px 0px 20px black;
     position: fixed;
     top: 8%;
@@ -61,6 +61,9 @@ const sideDrawer = (props) => {
         </Link>
         <Link to="/videos">
           <ListItem className="side-drawer-items">VIDEOS</ListItem>
+        </Link>
+        <Link to="/senpais-gallery">
+          <ListItem className="side-drawer-items">Gallery</ListItem>
         </Link>
       </NavList>
     </SideDrawerNav>

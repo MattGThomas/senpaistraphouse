@@ -1,13 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import gif from "../../images/gif.gif";
-import { MDBContainer, MDBCol, MDBRow, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
+// import threed_logo from "../../images/new_logos/3d_logo.jpg";
 import "./blog.css";
 
 class Blog extends Component {
   render() {
     return (
-      <MDBContainer className="blog">
+      <MDBContainer
+        className="blog"
+        // style={{ backgroundImage: `url(${threed_logo})` }}
+      >
         {/* <div className="arrow text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon
@@ -22,24 +26,7 @@ class Blog extends Component {
         </h2>
         <MDBRow style={{ paddingBottom: "3%" }}>
           {/* <MDBCol> */}
-          <div style={{ color: "white" }} className="text-left">
-            <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
-            <img src={gif} style={{ width: "100%" }} />
-            {/* <div>
-                <div>
-                  <p>AUTHOR</p>
-                  <p>just a few words from your Senpai</p>
-                </div>
-                <div>
-                  <p>ARCHIVES</p>
-                  <p>links to different months / years</p>
-                </div>
-                <div>
-                  <p>CATEGORIES</p>
-                  <p>different category options</p>
-                </div>
-              </div> */}
-          </div>
+
           {/* </MDBCol> */}
           <MDBCol>
             <div className="text-left" style={{ color: "white" }}>
@@ -61,7 +48,7 @@ class Blog extends Component {
                 and anything involving superheroes. I'm pretty terrible at video
                 games, but Sonic is my Super Smash character and I almost always
                 pick the water starter in Pokemon. (I think knowing these two
-                things will tell you a lot about somebody!)
+                things will tell you a lot about somebody!
                 <br />
                 <br />
                 I'm not perfect. I do not consider myself an expert by any
@@ -77,6 +64,28 @@ class Blog extends Component {
               </p>
             </div>
           </MDBCol>
+          <div style={{ color: "white" }} className="text-left">
+            <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
+            <img
+              src={gif}
+              style={{ width: "100%", borderRadius: "5%" }}
+              alt=""
+            />
+            {/* <div>
+                <div>
+                  <p>AUTHOR</p>
+                  <p>just a few words from your Senpai</p>
+                </div>
+                <div>
+                  <p>ARCHIVES</p>
+                  <p>links to different months / years</p>
+                </div>
+                <div>
+                  <p>CATEGORIES</p>
+                  <p>different category options</p>
+                </div>
+              </div> */}
+          </div>
         </MDBRow>
       </MDBContainer>
     );
