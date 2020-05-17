@@ -60,12 +60,22 @@
   }
 }
 .shadow {
+  display: none;
   font-family: "Shadows Into Light", cursive;
   padding-top: 2.5%;
+  text-align: center;
   /* font-family: "Permanent Marker", cursive; */
-  font-size: 4rem;
-  /* color: white; */
-  color: yellow;
+  font-size: 2.2rem;
+  color: white;
+  /* color: yellow; */
+}
+@media (max-width: 450px) {
+  .shadow {
+    display: block;
+  }
+  .traphouse {
+    padding-top: 21%;
+  }
 }
 /* .thought {
   display: flex;

@@ -5,8 +5,8 @@
   }
 }
 @media (max-width: 450px) {
-  .picture-gallery {
-    padding-top: 15%;
+  .picture-gallery-header {
+    padding-top: 20%;
   }
 }
 .picture-gallery {
