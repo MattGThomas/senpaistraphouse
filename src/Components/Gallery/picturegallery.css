@@ -1,6 +1,3 @@
-.picture-gallery {
-  padding-top: 3%;
-}
 @media (max-width: 750px) {
   .picture-gallery {
     padding-top: 7%;
@@ -9,16 +6,57 @@
 }
 @media (max-width: 450px) {
   .picture-gallery {
-    padding-top: 12%;
+    padding-top: 15%;
   }
+}
+.picture-gallery {
+  padding-bottom: 5%;
+}
+.picture-container {
+  position: relative;
+  /* width: 50%; */
+}
+.picture-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #73bf32;
+}
+.picture-container:hover .picture-overlay {
+  opacity: 0.75;
+}
+.picture-description {
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
 }
 .picture-gallery-header {
   font-family: "Sedgwick Ave Display", cursive;
   color: white;
   padding-bottom: 3%;
 }
-.circle-dots {
-  display: flex;
+@media (max-width: 450px) {
+  .picture-row {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+  }
+}
+/* .circle-dots { */
+/* display: flex;
   flex-direction: column;
 }
 .pictures {
@@ -29,4 +67,3 @@
   display: flex;
   justify-content: space-evenly;
   /* display: none; */
-}

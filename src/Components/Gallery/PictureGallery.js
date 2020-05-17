@@ -7,12 +7,40 @@ import unknown from "../../images/Traphouse Pics/unknown.jpeg";
 import venom from "../../images/Traphouse Pics/venom.jpeg";
 import yang from "../../images/Traphouse Pics/yangvbakugo.jpg";
 import "./picturegallery.css";
-import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 class PictureGallery extends Component {
   state = {
     index: Math.floor(Math.random() * 7),
     pictureList: [hisoka, dragonball, stab_ban, yang, kaneki, venom, unknown],
+    array: [
+      {
+        name: "Hisoka",
+        anime: "Hunter x Hunter",
+        picture: hisoka,
+      },
+      {
+        name: "Goku & The Prince of All Saiyans (Vegeta)",
+        anime: "Dragonball Super",
+        picture: dragonball,
+      },
+      { name: "King & Ban", anime: "Seven Deadly Sins", picture: stab_ban },
+      {
+        name: "Yang & Lord Explosion Murder",
+        anime: "RWBY & My Hero Academia",
+        picture: yang,
+      },
+      {
+        name: "Kaneki",
+        anime: "Tokyo Ghoul",
+        picture: kaneki,
+      },
+      {
+        name: "Venom",
+        anime: "Marvel Comics ...well not an anime, but close enough",
+        picture: venom,
+      },
+    ],
   };
   nextPic = () => {
     if (this.state.index + 1 === this.state.pictureList.length) {
@@ -102,46 +130,97 @@ class PictureGallery extends Component {
     return (
       <MDBContainer className="picture-gallery">
         <h2 className="picture-gallery-header">Senpai's Picture Gallery</h2>
-        <MDBRow style={{ paddingBottom: "7%" }}>
-          <MDBCol>
-            <img
-              src={this.state.pictureList[0]}
-              alt=""
-              style={{ width: "100%" }}
-            />{" "}
+        <MDBRow style={{ paddingBottom: "7%" }} className="picture-row">
+          <MDBCol style={{ height: "100%" }}>
+            <div className="picture-container">
+              <img
+                src={this.state.array[0].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[0].anime}&nbsp; <br />
+                  Character: {this.state.array[0].name}
+                </div>
+              </div>
+            </div>
           </MDBCol>
+
           <MDBCol>
-            <img
-              src={this.state.pictureList[1]}
-              alt=""
-              style={{ width: "100%", paddingBottom: "7%" }}
-            />
-            <img
-              src={this.state.pictureList[2]}
-              alt=""
-              style={{ width: "100%" }}
-            />
+            <div className="picture-container">
+              <img
+                src={this.state.array[1].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[1].anime}&nbsp; <br />
+                  Character: {this.state.array[1].name}
+                </div>
+              </div>
+            </div>
+
+            <div className="picture-container">
+              <img
+                src={this.state.array[2].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[2].anime}&nbsp; Character:{" "}
+                  {this.state.array[2].name}
+                </div>
+              </div>
+            </div>
           </MDBCol>
         </MDBRow>
-        <MDBRow>
+        <MDBRow className="picture-row">
           <MDBCol>
-            <img
-              src={this.state.pictureList[3]}
-              alt=""
-              style={{ width: "100%", paddingBottom: "7%" }}
-            />
-            <img
-              src={this.state.pictureList[4]}
-              alt=""
-              style={{ width: "100%" }}
-            />
+            <div className="picture-container">
+              <img
+                src={this.state.array[3].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[3].anime}&nbsp; Character:{" "}
+                  {this.state.array[3].name}
+                </div>
+              </div>
+            </div>
+
+            <div className="picture-container">
+              <img
+                src={this.state.array[4].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[4].anime}&nbsp; Character:{" "}
+                  {this.state.array[4].name}
+                </div>
+              </div>
+            </div>
           </MDBCol>
           <MDBCol>
-            <img
-              src={this.state.pictureList[5]}
-              alt=""
-              style={{ width: "100%" }}
-            />
+            <div className="picture-container">
+              <img
+                src={this.state.array[5].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[5].anime}&nbsp; Character:{" "}
+                  {this.state.array[5].name}
+                </div>
+              </div>
+            </div>
           </MDBCol>
         </MDBRow>
         {/* <MDBRow className="picture-gallery" style={{ paddingBottom: "10%" }}>
