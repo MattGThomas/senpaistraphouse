@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import gif from "../../images/gif.gif";
-import { MDBContainer, MDBCol, MDBRow, MDBIcon } from "mdbreact";
-import threed_logo from "../../images/new_logos/3d_logo.jpg";
+import { MDBContainer, MDBCol, MDBRow } from "mdbreact";
+// import threed_logo from "../../images/new_logos/3d_logo.jpg";
 import "./blog.css";
 
 class Blog extends Component {
@@ -10,7 +10,7 @@ class Blog extends Component {
     return (
       <MDBContainer
         className="blog"
-        style={{ backgroundImage: `url(${threed_logo})` }}
+        // style={{ backgroundImage: `url(${threed_logo})` }}
       >
         {/* <div className="arrow text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
@@ -66,7 +66,11 @@ class Blog extends Component {
           </MDBCol>
           <div style={{ color: "white" }} className="text-left">
             <p className="blog-text">WELCOME TO THE TRAPHOUSE</p>
-            <img src={gif} style={{ width: "100%" }} />
+            <img
+              src={gif}
+              style={{ width: "100%", borderRadius: "5%" }}
+              alt=""
+            />
             {/* <div>
                 <div>
                   <p>AUTHOR</p>

@@ -4,23 +4,17 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBInput,
-  MDBCard,
-  MDBCardBody,
   MDBCardImage,
   MDBCardText,
   MDBCardTitle,
-  MDBBtn,
   MDBJumbotron,
-  MDBIcon,
 } from "mdbreact";
-import Styled from "styled-components";
+
 import relife from "../../images/relife.jpg";
-// import reReLife from "../../images/resizedRelife.jpg";
-import hostClub from "../../images/host-club.jpg";
+
 import reasons from "../../images/reasons-why.jpg";
 import neverland from "../../images/neverland.jpg";
-import gif from "../../images/gif.gif";
+
 import threed from "../../images/new_logos/3d_logo.jpg";
 import "./articles.css";
 

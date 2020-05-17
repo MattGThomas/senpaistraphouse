@@ -12,7 +12,7 @@ class StrangerThings extends Component {
     return (
       <div>
         <div
-          className="text-left"
+          // className="text-left"
           style={{ paddingLeft: "3%" }}
           className="arrow text-left"
         >
@@ -28,19 +28,10 @@ class StrangerThings extends Component {
           <strong>IF YOU LIKE... 'STRANGER THINGS'</strong>
         </h2>
         <MDBContainer>
-          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
-            <MDBCol>
-              <h2 style={{ color: "#da8044" }}>The Promised Neverland</h2>
-              <p style={{ color: "#da8044" }}>
-                <em>
-                  <strong>
-                    Available dubbed on Toonami & subbed on Crunchyroll, VRV and
-                    HiDive
-                  </strong>
-                </em>
-              </p>
-              <img src={neverland} style={{ width: "100%" }} />
-            </MDBCol>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -125,6 +116,19 @@ class StrangerThings extends Component {
                   little bit of heartbreak and nail biting as well.
                 </p>
               </div>
+            </MDBCol>
+            <MDBCol>
+              <h2 style={{ color: "#da8044" }}>The Promised Neverland</h2>
+              <p style={{ color: "#da8044" }}>
+                <em>
+                  <strong>
+                    Available dubbed on Toonami & subbed on Crunchyroll, VRV and
+                    HiDive
+                  </strong>
+                </em>
+              </p>
+
+              <img src={neverland} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
           <MDBRow className="school-recs-reverse">
@@ -225,22 +229,13 @@ class StrangerThings extends Component {
                   <strong>Available dubbed and subbed on VRV and HiDive</strong>
                 </em>
               </p>
-              <img src={abyss} style={{ width: "100%" }} />
+              <img src={abyss} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
-          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
-            <MDBCol>
-              <h2 style={{ color: "#8d2424" }}>Parasyte: The Maxim</h2>
-              <p style={{ color: "#8d2424" }}>
-                <em>
-                  <strong>
-                    Available subbed on Crunchyroll, HiDIVE, Hulu, VRV and
-                    dubbed on HiDIVE, Hulu and VRV
-                  </strong>
-                </em>
-              </p>
-              <img src={parasyte} style={{ width: "100%" }} />
-            </MDBCol>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -325,6 +320,18 @@ class StrangerThings extends Component {
                   Things, this is a good one to test
                 </p>
               </div>
+            </MDBCol>
+            <MDBCol>
+              <h2 style={{ color: "#8d2424" }}>Parasyte: The Maxim</h2>
+              <p style={{ color: "#8d2424" }}>
+                <em>
+                  <strong>
+                    Available subbed on Crunchyroll, HiDIVE, Hulu, VRV and
+                    dubbed on HiDIVE, Hulu and VRV
+                  </strong>
+                </em>
+              </p>
+              <img src={parasyte} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
 
@@ -439,7 +446,7 @@ class StrangerThings extends Component {
                   </strong>
                 </em>
               </p>
-              <img src={evangelion} style={{ width: "100%" }} />
+              <img src={evangelion} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
         </MDBContainer>

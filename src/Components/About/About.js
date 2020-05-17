@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
+// import { Link } from "react-router-dom";
+import { MDBRow, MDBCol, MDBContainer } from "mdbreact";
 import "./About.css";
 class About extends Component {
   render() {
     return (
       <div className="about">
-        <div className="text-left" style={{ paddingLeft: "3%" }}>
+        {/* <div className="text-left" style={{ paddingLeft: "3%" }}>
           <Link to="/">
             <MDBIcon
               icon="arrow-circle-left"
@@ -14,8 +14,8 @@ class About extends Component {
               style={{ color: "#73bf32" }}
             />
           </Link>
-        </div>
-        <h2 className="reasons" style={{ paddingBottom: "3%" }}>
+        </div> */}
+        <h2 className="reasons-1" style={{ paddingBottom: "3%" }}>
           <strong>About the traphouse</strong>
         </h2>
         <MDBContainer>

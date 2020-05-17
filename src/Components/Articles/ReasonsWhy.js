@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import anohana from "../../images/anohana.jpg";
 import orange from "../../images/orange.jpg";
-import { MDBTypography, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
+import { MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 import "./articles.css";
 
 class ReasonsWhy extends Component {
@@ -10,7 +10,7 @@ class ReasonsWhy extends Component {
     return (
       <div>
         <div
-          className="text-left"
+          // className="text-left"
           style={{ paddingLeft: "3%" }}
           className="arrow text-left"
         >
@@ -26,19 +26,10 @@ class ReasonsWhy extends Component {
           <strong>IF YOU LIKE... '13 REASONS WHY'</strong>
         </h2>
         <MDBContainer>
-          <MDBRow style={{ paddingBottom: "3%" }} className="school-recs">
-            <MDBCol>
-              <h2 style={{ color: "#da8044" }}>Orange.</h2>
-              <p style={{ color: "#da8044" }}>
-                <em>
-                  <strong>
-                    Available dubbed on Funimation and subbed on Crunchyroll and
-                    VRV.
-                  </strong>
-                </em>
-              </p>
-              <img src={orange} style={{ width: "100%" }} />
-            </MDBCol>
+          <MDBRow
+            style={{ paddingBottom: "3%" }}
+            className="school-recs-reverse"
+          >
             <MDBCol>
               <div className="text-left">
                 <p style={{ color: "white" }}>
@@ -120,6 +111,18 @@ class ReasonsWhy extends Component {
                   better.
                 </p>
               </div>
+            </MDBCol>
+            <MDBCol>
+              <h2 style={{ color: "#da8044" }}>Orange.</h2>
+              <p style={{ color: "#da8044" }}>
+                <em>
+                  <strong>
+                    Available dubbed on Funimation and subbed on Crunchyroll and
+                    VRV.
+                  </strong>
+                </em>
+              </p>
+              <img src={orange} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
           <MDBRow
@@ -217,7 +220,7 @@ class ReasonsWhy extends Component {
                   </strong>
                 </em>
               </p>
-              <img src={anohana} style={{ width: "100%" }} />
+              <img src={anohana} style={{ width: "100%" }} alt="" />
             </MDBCol>
           </MDBRow>
         </MDBContainer>

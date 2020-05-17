@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import PictureGallery from "../Gallery/PictureGallery.js";
-import logo from "../../images/traphouselogo.png";
+// import PictureGallery from "../Gallery/PictureGallery.js";
+// import logo from "../../images/traphouselogo.png";
 import new_logo from "../../images/new_logos/new_logo.png";
 // import logo_two from "../../images/logo_two.png";
 import midoriya from "../../images/midoriya.png";
@@ -13,13 +13,11 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBInput,
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCardText,
   MDBCardTitle,
-  MDBBtn,
 } from "mdbreact";
 
 import ReactPlayer from "react-player";

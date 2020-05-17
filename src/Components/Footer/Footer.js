@@ -1,6 +1,6 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
-import { Link } from "react-router-dom";
+import { MDBRow, MDBIcon } from "mdbreact";
+// import { Link } from "react-router-dom";
 import Styled from "styled-components";
 // import "./footer.css";
 const FooterContainer = Styled.div`
@@ -18,10 +18,14 @@ const FooterContainer = Styled.div`
 const Footer = () => {
   return (
     // <MDBFooter>
-    <FooterContainer class="footer">
+    <FooterContainer className="footer">
       {/* <MDBFooter> */}
       <MDBRow>
-        <a target="_blank" href="https://www.facebook.com/Senpaistraphouse/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/Senpaistraphouse/"
+        >
           <MDBIcon
             fab
             icon="facebook"
@@ -29,7 +33,11 @@ const Footer = () => {
             style={{ paddingRight: "10px", color: "black" }}
           />
         </a>
-        <a target="_blank" href="https://twitter.com/senpaistraphous">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/senpaistraphous"
+        >
           <MDBIcon
             fab
             icon="twitter"
