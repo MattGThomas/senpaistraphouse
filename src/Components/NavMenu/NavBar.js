@@ -43,6 +43,7 @@ class NavBar extends Component {
   state = {
     sideDrawerOpen: false,
     textColor: "#73bf32",
+    text: "I",
   };
   backDropClick = () => {
     this.setState({
@@ -54,11 +55,54 @@ class NavBar extends Component {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
-  listenScrollEvent = (e) => {
-    if (window.scrollY > 100) {
-      this.setState({ textColor: "#FFFFFF" });
+  // listenScrollEvent = (e) => {
+  //   if (window.scrollY > 100) {
+  //     this.setState({ textColor: "#FFFFFF" });
+  //   } else {
+  //     this.setState({ textColor: "#73bf32" });
+  //   }
+  // };
+
+  listenScrollEvent = () => {
+    if (window.scrollY === 50) {
+      this.setState({
+        textColor: "black",
+        text: "i",
+      });
+    } else if (window.scrollY === 60) {
+      this.setState({
+        textColor: "red",
+        text: "will",
+      });
+    } else if (window.scrollY === 70) {
+      this.setState({
+        textColor: "yellow",
+        text: "never",
+      });
+    } else if (window.scrollY === 80) {
+      this.setState({
+        textColor: "blue",
+        text: "financially",
+      });
+    } else if (window.scrollY === 90) {
+      this.setState({
+        textColor: "purple",
+        text: "recover",
+      });
+    } else if (window.scrollY === 100) {
+      this.setState({
+        textColor: "white",
+        text: "from",
+      });
+    } else if (window.scrollY === 110) {
+      this.setState({
+        textColor: "pink",
+        text: "this",
+      });
     } else {
-      this.setState({ textColor: "#73bf32" });
+      this.setState({
+        textColor: "#73bf32",
+      });
     }
   };
 
@@ -86,12 +130,12 @@ class NavBar extends Component {
                 {/* <STLogo width="100%" /> */}
               </Link>
             </LogoContainer>
-            {/* <p
+            <p
               style={{ fontSize: "1.5rem", color: this.state.textColor }}
               className="navText"
             >
-              <strong>SENPAI'S TRAPHOUSE</strong>
-            </p> */}
+              <strong>{this.state.text}</strong>
+            </p>
             {/* <Zoom>
               <p>GTHis is a test to see if this s working</p>
             </Zoom> */}
