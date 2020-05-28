@@ -7,6 +7,7 @@ import unknown from "../../images/Traphouse Pics/unknown.jpeg";
 import venom from "../../images/Traphouse Pics/venom.jpeg";
 import yang from "../../images/Traphouse Pics/yangvbakugo.jpg";
 import threed from "../../images/new_logos/3d_logo.jpg";
+import todoroki from "../../images/Traphouse Pics/unknown.jpeg";
 import "./picturegallery.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
@@ -40,6 +41,11 @@ class PictureGallery extends Component {
         name: "Venom",
         anime: "Marvel Comics ...well not an anime, but close enough",
         picture: venom,
+      },
+      {
+        name: "Todoroki",
+        anime: "My Hero Academia",
+        picture: todoroki,
       },
     ],
   };
@@ -181,7 +187,7 @@ class PictureGallery extends Component {
             </div>
           </MDBCol>
         </MDBRow>
-        <MDBRow className="picture-row">
+        <MDBRow className="picture-row" style={{ paddingBottom: "7%" }}>
           <MDBCol>
             <div className="picture-container">
               <img
@@ -222,6 +228,23 @@ class PictureGallery extends Component {
                 <div className="picture-description">
                   Anime: {this.state.array[5].anime}&nbsp; Character:{" "}
                   {this.state.array[5].name}
+                </div>
+              </div>
+            </div>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow className="picture-row">
+          <MDBCol>
+            <div className="picture-container">
+              <img
+                src={this.state.array[6].picture}
+                alt=""
+                style={{ width: "100%" }}
+              />
+              <div className="picture-overlay">
+                <div className="picture-description">
+                  Anime: {this.state.array[6].anime}&nbsp; Character:{" "}
+                  {this.state.array[6].name}
                 </div>
               </div>
             </div>

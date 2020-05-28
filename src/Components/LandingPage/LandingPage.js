@@ -88,7 +88,6 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
             <MDBCol className="mdb-cards-column">
-              >
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardBody>
                   <Link to="/articles">
@@ -114,7 +113,6 @@ class LandingPage extends Component {
             </MDBCol>
 
             <MDBCol className="mdb-cards-column">
-              >
               <MDBCard style={{ height: "300px" }}>
                 <MDBCardImage
                   src={rascal}
