@@ -2,7 +2,7 @@ import React from "react";
 import { MDBRow, MDBIcon } from "mdbreact";
 // import { Link } from "react-router-dom";
 import Styled from "styled-components";
-// import "./footer.css";
+import "./footer.css";
 const FooterContainer = Styled.div`
     display: flex;
     align-items: center;
