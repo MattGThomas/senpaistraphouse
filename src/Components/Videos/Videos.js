@@ -22,12 +22,12 @@ class Videos extends Component {
             </div> */}
           </MDBRow>
           <MDBRow className="stupid-video">
-            {/* <MDBCol>
+            <MDBCol>
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=bZ_Ye4Rz6Ws"
                 width="100%"
               />
-            </MDBCol> */}
+            </MDBCol>
             <MDBCol className="text-left" style={{ paddingBottom: "16%" }}>
               {/* <span className="p-2 text-left">
                 A round table style discussion covering a variety of anime
