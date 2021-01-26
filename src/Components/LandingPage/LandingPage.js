@@ -128,7 +128,7 @@ class LandingPage extends Component {
               </MDBCard>
             </MDBCol>
           </MDBRow>
-          {/* <div>
+          <div>
             <h2 className="text-center" style={{ color: "#FFFFFF" }}>
               SENPAI'S TRAPHOUSE EP. 1: PILOT
             </h2>
@@ -159,7 +159,7 @@ class LandingPage extends Component {
                 -Main Topic: "Good and Bad anime fathers"
               </span>
             </MDBCol>
-          </MDBRow> */}
+          </MDBRow>
         </MDBContainer>
       </div>
     );

@@ -46,28 +46,31 @@ class StrangerThings extends Component {
                     Status:
                   </span>
                   <br />
-                  Definitely open for a second Season
+                  Season 2 now playing
                   <br />
                   <br />
-                  Promised Neverland is a sci-fi, mystery, thriller. Much like
-                  Stranger Things, it centers around a group of young children.
-                  Their lives are changed forever after realizing the orphanage
-                  they live in may not be all it seems.
+                  The Promised Neverland is a sci-fi, mystery, thriller that,
+                  like Stranger Things, centers around a group of young
+                  children. Their lives are changed forever after realizing the
+                  orphanage they live in may not be all it seems.
                   <br />
                   <br />
                   <span style={{ color: "#da8044", fontSize: "1.3rem" }}>
                     Synopsis
                   </span>
                   <br />
-                  Eleven year olds Emma, Norman and Ray live a seemingly perfect
-                  life with their siblings in the Grace Field House Orphanage
-                  hoping to one day be adopted into good families. Although it
-                  is strange that none of their previous siblings ever reach out
-                  to them after leaving, the children imagine it must be because
-                  of how great they are doing on the outside. When their younger
-                  sibling, Conny, is adopted the children discover that leaving
-                  Grace Field is a far more complicated, sinister farewell.
+                  Eleven-year-olds Emma, Norman and Ray live a seemingly perfect
+                  life with their siblings in the Grace Field House Orphanage.
+                  They spend their days hoping to be adopted into good families
+                  like the kids that left before them. Although it is strange
+                  that none of their previous siblings ever reach out to them
+                  after leaving, the children imagine it must be because of how
+                  great they are doing on the outside.
                   <br />
+                  <br />
+                  When their younger sibling, Conny, is adopted, the children
+                  discover that leaving Grace Field is a far more complicated,
+                  sinister farewell.
                   <br />
                   <span style={{ color: "#da8044", fontSize: "1.3rem" }}>
                     Similarities
@@ -77,16 +80,17 @@ class StrangerThings extends Component {
                     (Mild Spoilers)
                   </span>
                   Much like Stranger Things, Promised Neverland is rooted
-                  closely in strong friendships and familial bonds. Unlike some
-                  of this article’s other suggestions, this anime also follows a
-                  group of elementary age children as its central characters.
-                  There are plenty of shady adults to go around, as well as
-                  clever children. As the central character, Emma gives off
-                  serious girl power vibes much like Eleven. She is willing to
-                  do anything for her peers. An array of terrifying, man eating
-                  demons really adds to the Stranger Things aesthetic as the
-                  children navigate how to deal with the impending doom that is
-                  closing in on them.
+                  closely in strong friendships and familial bonds. While the
+                  idea of a story centered around children might not grab
+                  everyone’s attention, there are plenty of shady adults to go
+                  around as well.
+                  <br />
+                  <br />
+                  As the central character, Emma gives off serious girl-power
+                  vibes much like Eleven. She is willing to do anything for her
+                  peers. An array of terrifying, man eating demons really adds
+                  to the Stranger Things aesthetic, as the children come to
+                  terms with the impending doom that is closing in on them.
                   <br />
                   <br />
                   <span style={{ color: "#da8044", fontSize: "1.3rem" }}>
@@ -94,19 +98,19 @@ class StrangerThings extends Component {
                   </span>
                   <br />
                   Promised Neverland is probably the closest anime on this list
-                  to Stranger Things, but of course it is still very unique. If
-                  you enjoy a good coming of age story this is a good choice.
-                  It’s hard enough making life altering decisions as an adult,
-                  but as a child, it’s even crazier to navigate—especially when
-                  the life and death of your loved ones is on the line:
+                  to Stranger Things. If you enjoy a good coming of age story,
+                  this is a solid choice. It’s hard enough making life altering
+                  decisions as an adult, but as a child, it’s even
+                  crazier—especially when the lives of your loved ones are on
+                  the line.
                   <br />
                   <br />
-                  This show gives you a much needed re-up on monsters and sci-If
-                  that makes stranger things great, but it also filled with tons
-                  of mystery. There were times when I didn’t know who I could
-                  trust, if anyone, and it delivers several solid plot twists
-                  along the way. As someone who has not read the manga, I was on
-                  the edge of my seat each week.
+                  This show gives you a much needed re-up on the mystery and
+                  sci-fi elements that makes Stranger Things great. There were
+                  times when I didn’t know who I could trust, if anyone, and it
+                  delivers several solid plot twists along the way. As someone
+                  who has not read the manga, I was on the edge of my seat each
+                  week.
                   <br />
                   <br />
                   Much like the kids of Hawkins Elementary, Emma, Ray and Norman
@@ -163,71 +167,78 @@ class StrangerThings extends Component {
                   <br />
                   <span style={{ color: "#81c94c" }}>Synopsis</span>
                   <br />
-                  Twelve year Riko, a young orphan girl, aspires to be a famous
-                  cave raider one day, just like her mother “Liza the
-                  Annihilator”. She wants to search for artifacts and discover
-                  the secrets of The Abyss, a few gaping hole in the middle of
-                  Earth filled with both amazing treasure and terrifying
-                  monsters. Neither the curse of the abyss, or the fact that her
-                  mother journeyed down on a mission and never returned, are
-                  going to stop her from her mission.
+                  Twelve-year-old orphan, Riko, aspires to be a famous cave
+                  raider one day, just like her mother, “Liza the Annihilator”.
+                  She wants to search for artifacts and discover the secrets of
+                  The Abyss, a huge gaping hole in the middle of Earth filled
+                  with amazing treasure and terrifying monsters. Neither The
+                  Curse of the Abyss, or the fact that her mother journeyed down
+                  on a mission and never returned, are enough to deter her from
+                  achieving her goal.
                   <br />
                   <br />
-                  She soon meets a young robot boy in the abyss named Reg, who
-                  is about as mysterious and exciting as abyss treasure gets. He
-                  has no memories, but they form a dee connection regardless.
+                  She soon meets a young robot boy in the Abyss named Reg. A
+                  real jackpot - he’s about as mysterious and exciting as Abyss
+                  treasure gets. He has no memories, but the two form a deep
+                  connection regardless.
+                  <br />
+                  <br />
                   One day, a note reaches the surface, supposedly from Liza,
                   with a secret message that she is waiting for her daughter at
-                  the bottoms of the abyss. Despite the danger of potential
-                  death, Riko knows she must go down into the abyss and find her
-                  mother. So she and Reg set off on a journey that will forever
-                  change their lives.
+                  the bottoms of the Abyss. Despite the danger of potential
+                  death, Riko knows she must make the trip find her mother. So,
+                  she and Reg set off on a journey that will forever change
+                  their lives.
                   <br />
                   <br />
                   <span style={{ color: "#81c94c" }}>Similarities</span>
                   <br />
                   Like Promised Neverland and Stranger Things, this anime is
-                  also centered around younger children. Of course there is
-                  definitely an array of beasts and monsters to be overcome, as
-                  well as a number of adult allies and foes to be dealt with
-                  along the way. While Riko is a normal human girl, Reg is
-                  definitely more an Eleven type character. He comes with a
-                  mysterious past, and a limited knowledge of how the real world
-                  works. However, he is incredibly loyal, has bad ass powers and
-                  is just all around adorable.
+                  also centered around children. However, it definitely isn’t an
+                  anime for younger audiences. It offers array of beasts and
+                  monsters to be overcome, as well as a number of adult allies
+                  and foes to be dealt with along the way.
+                  <br />
+                  <br />
+                  While Riko is a normal human girl, Reg is definitely more an
+                  Eleven type character. He comes with a mysterious past, and a
+                  limited knowledge of how the real world works. Regardless, he
+                  is incredibly loyal, has bad ass powers and is just all around
+                  adorable.
                   <br />
                   <br />
                   <span style={{ color: "#81c94c" }}>
                     Why You Should Give It A Chance
                   </span>
                   <br />
-                  Made in the Abyss definitely has some very original world
-                  building going on. Unlike Stranger Things, it takes place of
-                  more of a fantasy type era, but regardless is still a good
-                  watch even if you aren’t much into fantasy.
+                  Made in the Abyss has some very original world building going
+                  on. Unlike Stranger Things, it takes place in more of a
+                  fantasy type era but is still a good watch even if you aren’t
+                  much into fantasy.
                   <br />
                   <br />
-                  The animation style feels a little different at first—more
-                  cartoonish/chibi-ish than your average anime, but it’s not a
-                  hard style to get used to. It works well for the story the
-                  anime is telling. It’s not hard to fall in love with the
-                  characters and their designs after an episode or two.
+                  The animation style feels a little unconventional at
+                  first—more cartoonish/chibi-ish than your average anime, but
+                  it’s not a hard style to get used to. It works well for the
+                  story the anime is telling. It’s not hard to fall in love with
+                  the characters and their designs after an episode or two.
                   <br />
                   <br />
                   Although at first the anime might seem childish, it is
                   anything but. There are deep themes of family, loss, loyalty,
-                  death and sacrifice that give this anime a much deeper story
-                  line than just children going on an adventure. There’s also
-                  plenty of action, a little gore, and some scientific
-                  experiments on humans that are basically fucking torture.
-                  Overall it’s well rounded story.
+                  death and sacrifice that give this anime a much darker
+                  storyline than children going on an adventure. There’s also
+                  plenty of action, gore, and even scientific experiments on
+                  humans that are basically fucking torture. Overall, it’s going
+                  to be far from what you’re expecting but in all of the best
+                  ways possible.
                   <br />
                   <br />
-                  While it might feel likes it’s start off slow, once we make it
-                  into the abyss, it begins to pick up and around episode nine I
-                  started crying like a bitch and basically didn’t stop until
-                  the end—so be prepared. This anime is definitely worth the
-                  pain.
+                  While it might feel like it’s start off slow, once viewers
+                  make it into the Abyss, it begins to pick up and around
+                  episode nine I started crying like a baby and basically didn’t
+                  stop until the end—so be prepared. This anime is definitely
+                  worth the pain.
                 </p>
               </div>
             </MDBCol>
@@ -260,20 +271,20 @@ class StrangerThings extends Component {
                     Synopsis:
                   </span>
                   <br />
-                  Shinichi Izumi is a normal, seventeen year old, high school
-                  boy until one night he is infected by an alien parasyte.
-                  Although meant to take over his body through his head and use
-                  it as his host, the parasyte fails and burrows into his hand
-                  instead, leaving them two separately thinking entities.
+                  Shinichi Izumi is a normal, seventeen-year-old, high school
+                  boy until one night he is infected by an alien parasite.
+                  Although meant to take over his entire body through his head
+                  and use it as his host, the parasite fails and burrows into
+                  his hand instead, leaving them as two separately thinking
+                  entities.
                   <br />
                   <br />
                   Despite originally coming to kill him, Shinichi and his
-                  parasyte, Migi, form a strange symbiotic bond, needing one
-                  another to survive. Shinichi’s strong sense of morals often
-                  collides with Migi’s strong sense of self preservation, but
-                  over time, they are forced to see the other’s point of view
-                  while constantly fighting for their lives against other, more
-                  hostile, parasytes.
+                  parasite, Migi, form a strange symbiotic bond. Shinichi’s
+                  strong sense of morals often collides with Migi’s strong sense
+                  of self preservation. Over time, they are forced to see the
+                  other’s point of view while constantly fighting for their
+                  lives against other, more hostile, parasites.
                   <br />
                   <br />
                   <span style={{ color: "#8d2424", fontSize: "1.3rem" }}>
@@ -284,36 +295,37 @@ class StrangerThings extends Component {
                     (Mild Spoilers)
                   </span>
                   The main similarity here is definitely the sci-fi horror
-                  concept of minors fighting otherworldly monsters. Like Eleven,
-                  Shinichi is forced to navigate a world he does not really fit
-                  into, protecting those around him with his unique abilities.
-                  Much like Stranger Things, there is a lot of mystery, and the
-                  concept of parasytes isn’t as much of a secret as you might
-                  think. Watching Shinichi figure out just what his place is in
-                  everything, and decide what he’s fighting for, is much like
-                  watching Eleven find herself in season two of Stranger Things.
+                  concept of fighting otherworldly monsters. Like Eleven,
+                  Shinichi is thrust into a world he does not really fit into,
+                  protecting those around him with his unique abilities. There
+                  is a lot of mystery here, and the concept of parasites isn’t
+                  as much of a secret as you might think. Watching Shinichi
+                  figure out just where he fits into the narrative and what he’s
+                  fighting for, is much like watching Eleven find herself in
+                  season two of Stranger Things.
                   <br />
                   <br />
                   <span style={{ color: "#8d2424", fontSize: "1.3rem" }}>
                     Why You Should Give It A Chance
                   </span>
                   <br />
-                  First of all, if the reason you like Stranger Things is epic,
-                  man eating monsters, that’s enough right there. In design, the
-                  parasytes can be pretty similar looking to demigorgons.
+                  First of all, if the reason you like Stranger Things has
+                  anything to do with epic, man eating monsters, that’s enough
+                  right there. In design, the parasites can be pretty similar
+                  looking to demigorgons.
                   <br />
                   <br />
                   Parasyte also has a lot of moralistic food for thought. A
                   sci-fi show where your main character has powers is always
                   bound to come with some deep inner turmoil. While Eleven was
-                  already struggling when we met her, we are with Shinichi from
-                  day one. If you’re into tragic hero origin stories, this is
-                  definitely a good choice. One of the most interesting parts is
-                  watching how Shinichi and Migi influence each other’s ideals
-                  and change throughout the course of the show, until it feels
-                  like they are borderline reversed. (Also it’s just fun to
-                  watch Shinichi up the hell out of his swag as the anime
-                  progresses)
+                  already struggling when we met her, we follow Shinichi from
+                  day one of his story. If you’re into tragic hero origin
+                  stories, this is definitely a good choice. One of the most
+                  interesting parts is watching how Shinichi and Migi influence
+                  each other’s ideals and change throughout the course of the
+                  show, until it feels like they’ve almost reversed roles.
+                  (Also, it’s just fun to watch Shinichi up the hell out of his
+                  swag as the anime progresses)
                   <br />
                   <br />
                   If you're into the scarier more intense sides of Stranger
@@ -359,7 +371,7 @@ class StrangerThings extends Component {
                   26 episodes. One recap movie. One sequel movie. Three “Rebuild
                   movies” (a semi-retelling of the original story but with new
                   elements, story arcs and plot points. It is also remastered.
-                  Think of it like a modern remake, I.e. Halloween)
+                  Think of it like a modern remake, I.e., Halloween)
                   <br />
                   <br />
                   <span style={{ color: "#8640ae", fontSize: "1.3rem" }}>
@@ -367,31 +379,30 @@ class StrangerThings extends Component {
                   </span>
                   <br />
                   The anime is complete. There is one rebuild movie left to be
-                  released in 2020.
+                  released in 2021.
                   <br />
                   <br />
                   Neon Genesis is the story of a futuristic society, where the
-                  burden of humanities future is placed upon the shoulders of
-                  young, naïve students
+                  burden of humanity’s future is placed upon the shoulders of
+                  young, naïve students.
                   <br />
                   <br />
                   <span style={{ color: "#8640ae", fontSize: "1.3rem" }}>
                     Synopsis:
                   </span>
                   <br />
-                  Neon Genesis tells the story of Shinji Ikari, and several
-                  other children, piloting mechs (giant mechanical robots) and
-                  being forced to fight off monsters called Angels. It is
-                  basically a post apocalyptic anime, where humanity must fight
-                  to survive the reemergence of the very monsters that damned
-                  them in the first place.
+                  Neon Genesis follows several children, mainly Shinji Ikari, as
+                  they pilot mechs (giant mechanical robots) and fight off
+                  monsters called Angels. It is basically a post-apocalyptic
+                  anime, where humanity must fight to survive the reemergence of
+                  the very monsters that damned them in the first place.
                   <br />
-                  <br /> While Shinji struggles to win battles, he must also
-                  overcome his intense feelings of anxiety, abandonment and
-                  inadequacy in over to save the world from another major
-                  disaster. What he doesn’t know, is that the leaders of the
-                  organization he works for, are keeping more secrets than he
-                  thinks.
+                  <br />
+                  While Shinji struggles to win battles, he must also overcome
+                  his intense feelings of anxiety, abandonment and inadequacy in
+                  over to save the world from another major disaster. What he
+                  doesn’t know, is that the leaders of the organization he works
+                  for, are keeping more secrets than he thinks.
                   <br />
                   <br />
                   <span style={{ color: "#8640ae", fontSize: "1.3rem" }}>
@@ -401,22 +412,23 @@ class StrangerThings extends Component {
                   <span style={{ color: "red", fontSize: "1.3rem" }}>
                     (Mild Spoilers)
                   </span>{" "}
-                  Much like Stranger Things, Neon Genesis is definitely a coming
-                  of age story. No one has powers, but we do see a group of kids
-                  thrust into the thick of action, having to overcome obstacles
-                  in an attempt to save their city. There is a lot of growing up
-                  going on in Neon Genesis, much like with kids of Hawkins, and
-                  at times it can be hard to navigate that while trying to
-                  engage in life threatening battles.
+                  Much like Stranger Things, Neon Genesis is definitely a
+                  coming-of-age story. No one has powers here, but we do see a
+                  group of kids thrust into the thick of action, having to
+                  overcome various obstacles in an attempt to save their city.
+                  There is a lot of growing up going on in Neon Genesis, much
+                  like with kids of Hawkins, and at times it can be hard to
+                  juggle that while trying to engage in life threatening
+                  battles. Much like the secret organization that held Eleven,
+                  Neon Genesis also has a secret organization called Nerv, that
+                  Shinji’s father is a part of. (His father is legit dead-beat
+                  dad of the year and more infuriating than Eleven’s Papa).
                   <br />
                   <br />
-                  Much like the secret organization that held Eleven, Neon
-                  Genesis also has a secret organization called Nerv that the
-                  protagonists father is a part of. Neon Genesis is full of
-                  action, but also full of trauma arises kids, troubled adults
-                  and plenty of questionable, self-serving secrets that will
-                  have you wondering why people continue to mess with things
-                  they do not fully understand.
+                  Neon Genesis is full of action, but also full of trauma. The
+                  kids are messed up. The adults are messed up and all of them
+                  will have you wondering why people continue to mess with
+                  things they do not fully understand.
                   <br />
                   <br />
                   <span style={{ color: "#8640ae", fontSize: "1.3rem" }}>
@@ -431,17 +443,15 @@ class StrangerThings extends Component {
                   The show starts off strong, with plenty of action and an
                   ensemble of interesting characters of various ages. There is a
                   slow patch in the middle of the anime for a few eps, but when
-                  it picks back up again, the remainder of the anime is non
-                  stop.
+                  it picks back up again, the remainder of the anime is nonstop.
                   <br />
                   <br />I will say, Neon Genesis can be a bit of a hard watch
                   and at times it can be emotionally exhausting. Many of the
                   characters are dealing with serious inner turmoil and deep
                   struggles (tragic backstories left and right—no one is safe).
                   There is a lot of unresolved trauma, especially within the
-                  main character, who struggles to understand his purpose and
-                  the adults honestly are not much help. His father is legit
-                  dead-beat dad of the year.
+                  main character, who struggles to understand his purpose in
+                  life.
                 </p>
               </div>
             </MDBCol>
